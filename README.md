@@ -35,6 +35,7 @@
 - [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/hydra.md)
 - [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/john.md)
 - [CyberChef](https://gchq.github.io/CyberChef/)
+- [CrackStation](https://crackstation.net/)
 
 #### Malware Tools
 - [Metasploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/metasploit.md)
