@@ -12,7 +12,8 @@
 
 ### Concepts
 - [Networking](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md)
-
+- [Security & Compliance Programs](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md)
+  
 ---
 
 ### Tools 
