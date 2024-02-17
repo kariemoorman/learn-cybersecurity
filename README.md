@@ -36,11 +36,17 @@
 - [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/john.md)
 - [CyberChef](https://gchq.github.io/CyberChef/)
 - [CrackStation](https://crackstation.net/)
+- [MD5Hashing](https://md5hashing.net/)
 
-#### Malware Tools
+#### Malware Analysis Tools
 - [Metasploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/metasploit.md)
 - [Exploit-DB & Searchsploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/exploitdb.md)
+- [GTFOBins](https://gtfobins.github.io/)
+- [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
 - [VirusTotal](https://www.virustotal.com)
+
+#### Additional Resources
+- [HackTricks](https://book.hacktricks.xyz/)
 
 
 ---
