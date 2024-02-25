@@ -31,12 +31,9 @@
 - [Amass](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/amass.md)
 - [Sublist3r](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/sublist3r.md)
 
-#### Password Cracking Tools
-- [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/hydra.md)
-- [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/john.md)
-- [CyberChef](https://gchq.github.io/CyberChef/)
-- [CrackStation](https://crackstation.net/)
-- [MD5Hashing](https://md5hashing.net/)
+#### Penetration Testing Tools
+- Password Cracking: [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra), [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper), [Hashcat](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat)
+- Hash Cracking & Decryption: [CrackStation](https://crackstation.net/), [MD5Hashing](https://md5hashing.net/), [dCode](https://www.dcode.fr/), [CyberChef](https://gchq.github.io/CyberChef/)
 
 #### Malware Analysis Tools
 - [Metasploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/metasploit.md)
