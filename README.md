@@ -34,13 +34,8 @@
 #### Penetration Testing Tools
 - Password Cracking: [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra), [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper), [Hashcat](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat)
 - Hash Cracking & Decryption: [CrackStation](https://crackstation.net/), [MD5Hashing](https://md5hashing.net/), [dCode](https://www.dcode.fr/), [CyberChef](https://gchq.github.io/CyberChef/)
-
-#### Malware Analysis Tools
-- [Metasploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/metasploit.md)
-- [Exploit-DB & Searchsploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/exploitdb.md)
-- [GTFOBins](https://gtfobins.github.io/)
-- [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
-- [VirusTotal](https://www.virustotal.com)
+- Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/exploitdb.md), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/metasploit.md)
+- Malware Detection: [VirusTotal](https://www.virustotal.com)
 
 #### Additional Resources
 - [HackTricks](https://book.hacktricks.xyz/)
