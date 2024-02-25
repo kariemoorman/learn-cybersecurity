@@ -1,4 +1,13 @@
-## Hydra 
+# Password Cracking
+
+## Table of Contents
+- [Hydra](#hydra)
+- [John the Ripper](#john-the-ripper)
+- [Hashcat](#hashcat)
+
+<hr> 
+
+## Hydra
 
 [Hydra](https://en.kali.tools/?p=220) is a powerful password-cracking tool that is used for various network protocols. 
 It is known for its versatility and the ability to perform brute-force attacks, dictionary attacks, and other types of password attacks. 
@@ -83,7 +92,7 @@ john output.db
 
 <hr>
 
-## Hashcat 
+## Hashcat
 
 [Hashcat](https://hashcat.net/hashcat/) is an open-source password recovery tool that is used for recovering lost or forgotten passwords. It is known for its speed and versatility in cracking password hashes using a variety of attack modes and techniques. Hashcat supports CPU and GPU acceleration, making it one of the fastest password-cracking tools available.
 
