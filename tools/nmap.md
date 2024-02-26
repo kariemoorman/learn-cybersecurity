@@ -42,7 +42,7 @@ Note: Decoy scans can be defeated through router path tracing, response-dropping
 #### Scripts
 | Flag | Example | Description |
 | - | - | - |
-| -sC | `nmap -sC <ip_address>` | Performs a script scan using the default set of scripts |
+| -sC | `nmap -sC <target_ip_address>` | Performs a script scan using the default set of scripts |
 | --script=<script_name> | `nmap --script smb* <target_ip_address>` | Runs a script scan using the comma-separated list of filenames, script categories, and directories |
 
 Example Scripts: 
@@ -60,7 +60,7 @@ Example Scripts:
 #### Example Scripts 
 
 ```
-nmap -Pn -sV -sC -vvv -p- <ip_address>
+nmap -Pn -sV -sC -vvv -p- <target_ip_address>
 
 -Pn: Skip host discovery phase and assumes that the target host is up. It can be useful when host discovery methods are not reliable.
 
