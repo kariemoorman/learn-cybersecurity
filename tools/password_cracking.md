@@ -1,11 +1,18 @@
 # Password Cracking
 
 ## Table of Contents
+- [Wordlists](#wordlists)
 - [Hydra](#hydra)
 - [John the Ripper](#john-the-ripper)
 - [Hashcat](#hashcat)
 
 <hr> 
+
+## Wordlists 
+
+- [SecLists](https://github.com/danielmiessler/SecLists)
+
+<hr>
 
 ## Hydra
 
