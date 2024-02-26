@@ -12,11 +12,10 @@ Nmap also allows users ability to execute custom scripts to automate tasks, cond
 #### Protocol, Host & Port Specifications 
 | Flag | Example | Description |
 | - | - | - |
-| -sP | `nmap -sP <target>` | Ping scan |
+| -sP/-sn | `nmap -sP/-sn <target>` | Ping scan for host discovery only; disable port scanning |
 | -sT | `nmap -sT <target>` | TCP connect scan |
 | -sA | `nmap -sA <target>` | TCP ACK port scan (Firewall Detection) |
 | -sU | `nmap -sU <target>` | UDP port scan |
-| -sn | `nmap -sn <target>` | Host discovery only; disable port scanning |
 | -Pn | `nmap -Pn <target>` | Port scan only; disable host discovery |
 | -p- | `nmap <target> -p- ` | Port scan all ports |
 
@@ -68,6 +67,24 @@ Example Scripts:
 
 #### Example Scripts 
 
+Basic Network Scan: 
+
+```
+sudo nmap -sV -O -Pn <target> -p- -v
+
+-sV: Enable version detection, to determine the versions of services running on open ports.
+
+-O: Enable OS detection, to determine version(s) of OS running on server(s).
+
+-Pn: Skip host discovery phase and assumes that the target host is up. It can be useful when host discovery methods are not reliable.
+
+target: IP Address/Domain Name of target system.
+
+-p-: Full port scan; instructs Nmap to scan all 65,535 ports on the target.
+
+-v: verbose; provides detailed information during the scan.
+```
+
 Vulnerability Scan:
 ```
 nmap -Pn -sV -sC -vvv -p- <target>
@@ -78,7 +95,7 @@ nmap -Pn -sV -sC -vvv -p- <target>
 
 -sC: This option enables the default scripts from the Nmap Scripting Engine (NSE), performing a script scan. These scripts can perform various tasks, including service version detection, vulnerability detection, and enumeration.
 
--vvv Verbose; provides very detailed information during the scan.
+-vvv Very, very verbose; provides very detailed information during the scan.
 
 -p-: Full port scan; instructs Nmap to scan all 65,535 ports on the target. 
 
