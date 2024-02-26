@@ -24,17 +24,14 @@
 - [Nmap](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md)
 
 #### Web Application Tools
-- [Burp Suite](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/burpsuite.md)
-- [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md)
-- [DirBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/dirbuster.md)
-- [Nikto](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nikto.md)
-- [Amass](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/amass.md)
-- [Sublist3r](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/sublist3r.md)
+- Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass)
+- Web Fuzzing: [FFuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md)
+- Security Testing: [Burp Suite](https://portswigger.net/), [Nikto](https://www.mankier.com/1/nikto), [Nessus](https://www.tenable.com/products/nessus)
 
 #### Penetration Testing Tools
 - Password Cracking: [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra), [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper), [Hashcat](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat)
 - Hash Cracking & Decryption: [CrackStation](https://crackstation.net/), [MD5Hashing](https://md5hashing.net/), [dCode](https://www.dcode.fr/), [CyberChef](https://gchq.github.io/CyberChef/)
-- Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/exploitdb.md), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/metasploit.md)
+- Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://www.exploit-db.com/), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://www.metasploit.com/)
 - Malware Detection: [VirusTotal](https://www.virustotal.com)
 
 #### Additional Resources
