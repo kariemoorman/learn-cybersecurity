@@ -18,6 +18,7 @@ Nmap also allows users ability to execute custom scripts to automate tasks, cond
 | -Pn | `nmap -Pn <target>` | Port scan only; disable host discovery |
 | -p- | `nmap <target> -p- ` | Port scan all ports |
 
+<br>
 
 #### Service & OS Version Detection
 | Flag | Example | Description |
@@ -26,6 +27,7 @@ Nmap also allows users ability to execute custom scripts to automate tasks, cond
 | -O | `sudo nmap -O <target>` | OS detection | 
 | -A | `nmap -A <target>` | Aggressive scan; enables OS detection, version detection, script scanning, and traceroute | 
 
+<br>
 
 #### Stealth Mode (Firewall/IDS Evasion & Spoofing)
 
@@ -38,16 +40,20 @@ Nmap also allows users ability to execute custom scripts to automate tasks, cond
 | -f | `nmap -f <target>` | Requested scan (including ping scans) use tiny fragmented IP packets, to aid in firewall/ids evasion
 | -n | `nmap -n <target>` | No DNS resolution |
 
-Note: Decoy scans can be defeated through router path tracing, response-dropping, and other active mechanisms, however it is generally an effective technique for hiding your IP address.
+*Note: Decoy scans can be defeated through router path tracing, response-dropping, and other active mechanisms, however it is generally an effective technique for hiding your IP address.*
 
-#### Scripts
+<br>
+
+#### NSE Scripts
 | Flag | Example | Description |
 | - | - | - |
 | -sC | `nmap -sC <target>` | Performs a script scan using the default set of scripts |
-| --script=<script_name> | `nmap --script smb* <target>` | Runs a script scan using the comma-separated list of filenames, script categories, and directories |
+| --script=<script_name> | `nmap --script=<script_name> <target>` | Runs a script scan using the comma-separated list of filenames, script categories, and directories |
 
+<br>
 Example Scripts: 
-(See https://nmap.org/nsedoc/scripts/ for full list of custom scripts.)
+
+*(See https://nmap.org/nsedoc/scripts/ for full list of custom scripts.)*
 
 | Script | Example | Description | 
 | - | - | - |
