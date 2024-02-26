@@ -10,12 +10,12 @@ Nmap also allows users ability to execute custom scripts to automate tasks, cond
 #### Protocol, Host & Port Specifications 
 | Flag | Example | Description |
 | - | - | - |
-| -sP | `nmap -sP <ip_address>` | Ping scan |
-| -sA | `nmap -sA <ip_address>` | TCP ACK port scan (Firewall Detection) |
-| -sU | `nmap -sU <ip_address>` | UDP port scan |
-| -sn | `nmap -sn <ip_address>` | Host discovery only; disable port scanning |
-| -Pn | `nmap -Pn <ip_address>` | Port scan only; disable host discovery |
-| -p- | `nmap <ip_address> -p- ` | Port scan all ports |
+| -sP | `nmap -sP <target_ip_address>` | Ping scan |
+| -sA | `nmap -sA <target_ip_address>` | TCP ACK port scan (Firewall Detection) |
+| -sU | `nmap -sU <target_ip_address>` | UDP port scan |
+| -sn | `nmap -sn <target_ip_address>` | Host discovery only; disable port scanning |
+| -Pn | `nmap -Pn <target_ip_address>` | Port scan only; disable host discovery |
+| -p- | `nmap <target_ip_address> -p- ` | Port scan all ports |
 
 
 #### Service & OS Version Detection
@@ -32,7 +32,7 @@ Nmap also allows users ability to execute custom scripts to automate tasks, cond
 | - | - | - |
 | -sS | `sudo nmap -sS <target_ip_address>` | TCP SYN scan; does not complete the full TCP three-way handshake |
 | -D <ip_address>,<ip_address>| `nmap -D <ip_address>,<ip_address> <target_ip_address>` | Decoy scan; obfuscates source of nmap scan to help hide source ip address | 
-| --spoof-mac <mac_address> | `--spoof-mac <mac_address> <target_ip_address>` | source MAC address spoofing during nmap scan, to aid in firewall evasion |
+| --spoof-mac <mac_address> | `nmap --spoof-mac <mac_address> <target_ip_address>` | source MAC address spoofing during nmap scan, to aid in firewall evasion |
 | --proxies <proxy_url>,<proxy_url> | `nmap --proxies <proxy_url>,<proxy_url> <target_ip_address>` | Relay connections through HTTP/SOCKS4 proxies; hides the true source of a scan or evade certain firewall restrictions |
 | -f | `nmap -f <target_ip_address>` | Requested scan (including ping scans) use tiny fragmented IP packets, to aid in firewall/ids evasion
 | -n | `nmap -n <target_ip_address>` | No DNS resolution |
