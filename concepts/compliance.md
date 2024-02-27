@@ -1,4 +1,4 @@
-## Security & Privacy Compliance Programs
+## Data Security & Privacy Compliance Programs
 
 ### Table of Contents
 - [GDPR](#gdpr)
