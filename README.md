@@ -36,7 +36,7 @@
 #### Penetration Testing Tools
 - Password Cracking: [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra), [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper), [Hashcat](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat)
 - Hash Cracking & Decryption: [CrackStation](https://crackstation.net/), [MD5Hashing](https://md5hashing.net/), [dCode](https://www.dcode.fr/), [CyberChef](https://gchq.github.io/CyberChef/)
-- Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://www.exploit-db.com/), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://www.metasploit.com/)
+- Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://www.exploit-db.com/), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://www.metasploit.com/), [SQLMap](https://sqlmap.org/)
 - Malware Detection: [VirusTotal](https://www.virustotal.com)
 
 #### Additional Resources
