@@ -20,7 +20,7 @@
 
 #### OSINT
 - Face Recognition: [Pimeyes](https://pimeyes.com/en), [Facecheck.id](https://facecheck.id/)
-- Search Engines: [Shodan](https://www.shodan.io)
+- Search Engines: [Shodan](https://www.shodan.io), [ZoomEye](https://www.zoomeye.org/), [Wigle](https://wigle.net/), [Pulsedive](https://pulsedive.com/), [Fullhunt](https://fullhunt.io/), [GreyNoise](https://viz.greynoise.io/), [CRT](https://crt.sh), [SearchCode](https://searchcode.com/), [GrepApp](https://grep.app/), [PublicWWW](https://publicwww.com/)
 - Social Media: [Sherlock](https://github.com/sherlock-project/sherlock#installation), [WhatsMyName](https://whatsmyname.app/)
 
 #### Network Analysis Tools
