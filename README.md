@@ -30,7 +30,7 @@
 
 #### Web Application Tools
 - Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass)
-- Web Fuzzing: [FFuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md)
+- Web Fuzzing: [Ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md)
 - Security Testing: [Burp Suite](https://portswigger.net/), [Nikto](https://www.mankier.com/1/nikto), [Nessus](https://www.tenable.com/products/nessus)
 
 #### Penetration Testing Tools
