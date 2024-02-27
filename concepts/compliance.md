@@ -90,7 +90,7 @@ What is considered non-compliance?
 *(Source: https://www.sage.com/en-us/blog/ccpa-non-compliance-penalties/)*
 
 What are the penalties for non-compliance? 
-- The Attorney General has discretion in the actual amount per-violation. The Attorney General may take civil action, including imposing an injunction and a civil penalty of $2,500 for each violation. If the violation is considered to be intentional then that might rise to $7,500 for each violation. These penalties from the Attorney General are widely understood to apply to each consumer (e.g., if 1,000 of your consumers are affected, the civil penalty amounts to $7.5 million).
+- The Attorney General has discretion in the actual amount per-violation. The Attorney General may take civil action, including imposing an injunction and a civil penalty of $2,500 for each violation. If the violation is considered to be intentional then that might rise to $7,500 for each violation. These penalties from the Attorney General are widely understood to apply to each consumer (e.g., if 1,000 consumers are affected, and the penalty per violation equates to $7500, the civil penalty amounts to $7.5 million).
 
 <hr> 
 
