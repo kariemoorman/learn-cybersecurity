@@ -12,8 +12,8 @@
 
 ### Concepts
 - [Networking](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md)
-- [Security & Compliance Programs](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md)
-  
+- Data Security & Privacy Compliance Programs: [GDPR](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#gdpr), [CCPA](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#ccpa), [HIPAA](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#hipaa)
+
 ---
 
 ### Tools 
@@ -24,9 +24,7 @@
 - Social Media: [Sherlock](https://github.com/sherlock-project/sherlock#installation), [WhatsMyName](https://whatsmyname.app/)
 
 #### Network Analysis Tools
-- [TCPDump](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md)
-- [Wireshark](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md)
-- [Nmap](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md)
+- [TCPDump](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md), [Wireshark](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md), [Nmap](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md)
 
 #### Web Application Tools
 - Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass)
