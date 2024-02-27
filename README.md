@@ -18,6 +18,11 @@
 
 ### Tools 
 
+#### OSINT
+- Face Recognition: [Pimeyes](https://pimeyes.com/en), [Facecheck.id](https://facecheck.id/)
+- Search Engines: [Shodan](https://www.shodan.io)
+- Social Media: [Sherlock](https://github.com/sherlock-project/sherlock#installation), [WhatsMyName](https://whatsmyname.app/)
+
 #### Network Analysis Tools
 - [TCPDump](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md)
 - [Wireshark](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md)
