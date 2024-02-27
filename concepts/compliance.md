@@ -20,7 +20,7 @@ GDPR is a comprehensive data protection and privacy regulation that was implemen
 GDPR guards personal data from the collection process. Businesses are only allowed to collect personal data if there is a legitimate reason for doing so, and are required to inform the data subject on how their data would be processed. Companies are also required to implement privacy by design for all new systems and processes; adequate cybersecurity measures should be implemented at all times, including having PII encrypted. When necessary, GDPR recommends businesses assign a data protection officer to handle GDPR compliance.
 
 Country of Origin: European Union  
-Effective Date: May 25, 2018  
+Effective Date: 25 May 2018  
 Establishing Body: European Parliament & Council of the European Union
 
 Purpose:
@@ -53,6 +53,11 @@ What are the penalties for non-compliance?
 [California Consumer Privacy Act (CCPA)](https://www.oag.ca.gov/privacy/ccpa)
 
 CCPA grants California state residents specific rights regarding their personal information, such as the right to know, delete, and opt-out of the sale of their data. Businesses are required to disclose the categories of personal information they collect and the purposes for which it is used.
+
+Country of Origin: United States (California)  
+Effective Date: 1 January 2020  
+Establishing Body: California State Legislature
+
 
 <hr> 
 
