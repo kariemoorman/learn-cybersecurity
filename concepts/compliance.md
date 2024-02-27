@@ -30,9 +30,10 @@ Purpose:
 
 What is "personal data" under GDPR? 
 - GDPR Article 4: "any piece of information that relates to a living, identifiable person," where identifier includes referents such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person (i.e., humans, not companies).
+- Recital 30: "Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification (RFID) tags. This may leave traces which, in particular when combined with unique identifiers and other information received by the servers, may be used to create profiles of the natural persons and identify them."
 - GDPR only applies to personal data processed in one of two ways:
   - Personal data processed wholly or partly by automated means (or, information in electronic form); and
-  - Personal data processed in a non-automated manner which forms part of, or is intended to form part of, a ‘filing system’ (or, written records in a manual filing system).  
+  - Personal data processed in a non-automated manner which forms part of, or is intended to form part of, a ‘filing system’ (or, written records in a manual filing system).    
 *(Source: https://gdpr.eu/eu-gdpr-personal-data/)*
 
 Who must comply?
