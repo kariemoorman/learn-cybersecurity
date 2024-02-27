@@ -58,6 +58,39 @@ Country of Origin: United States (California)
 Effective Date: 1 January 2020  
 Establishing Body: California State Legislature
 
+What privacy rights are secured for California residents?
+- The right to know about the personal information a business collects about them and how it is used and shared;
+- The right to delete personal information collected from them (with some exceptions);
+- The right to opt-out of the sale or sharing of their personal information; and
+- The right to non-discrimination for exercising their CCPA rights.
+- As of 1 January 2023:
+  - The right to correct inaccurate personal information that a business has about them; and
+  - The right to limit the use and disclosure of sensitive personal information collected about them.  
+*(Source: https://www.oag.ca.gov/privacy/ccpa)*
+
+What is personal information and sensitive personal personal information under CCPA?
+- Personal Information: Information that identifies, relates to, or could reasonably be linked with you or your household, e.g., your name, social security number, email address, records of products purchased, internet browsing history, geolocation data, fingerprints, and inferences from other personal information that could create a profile about your preferences and characteristics.
+- Sensitive Information: Subset of personal information that includes certain government identifiers (e.g., social security numbers); account log-in, financial account, debit card, or credit card number with any required security code, password, or credentials allowing access to an account; precise geolocation; contents of mail, email, and text messages; genetic data; biometric information processed to identify a consumer; information concerning a consumer’s health, sex life, or sexual orientation; or information about racial or ethnic origin, religious or philosophical beliefs, or union membership. 
+
+Who must comply?
+- The CCPA applies to for-profit businesses that do business in California and meet any of the following:
+  - Have a gross annual revenue of over $25 million;
+  - Buy, sell, or share the personal information of 100,000 or more California residents, households, or devices; or
+  - Derive 50% or more of their annual revenue from selling California residents’ personal information.
+- The CCPA generally does not apply to nonprofit organizations or government agencies.
+
+What is considered non-compliance?
+- Not informing consumers of their rights.
+- Not enabling disclosure requests.
+- Discriminating against consumers.
+- Charging consumers a fee to consumers who exercise their rights under the CCPA.
+- Not providing electronic consumer information in a way that isn’t in a “portable and, to the extent technically feasible, in a readily useable format” (e.g., via email).
+- Not updating privacy policies and websites to reflect categories of personal information collected, including a conspicuous link called “Do Not Sell My Personal Information” by which consumers may opt out.
+- Not responding to a consumer request within 45 days.  
+*(Source: https://www.sage.com/en-us/blog/ccpa-non-compliance-penalties/)*
+
+What are the penalties for non-compliance? 
+- The Attorney General has discretion in the actual amount per-violation. The Attorney General may take civil action, including imposing an injunction and a civil penalty of $2,500 for each violation. If the violation is considered to be intentional then that might rise to $7,500 for each violation. These penalties from the Attorney General are widely understood to apply to each consumer (e.g., if 1,000 of your consumers are affected, the civil penalty amounts to $7.5 million).
 
 <hr> 
 
