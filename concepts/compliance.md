@@ -4,10 +4,6 @@
 - [GDPR](#gdpr)
 - [CCPA](#ccpa)
 - [HIPAA](#hipaa)
-- NIST: https://www.nist.gov/cybersecurity, https://www.nist.gov/itl
-- FedRamp: https://www.fedramp.gov/
-- SOC 2, ISO 27001, ISO 27017, ISO 27018, ISO 27701, CSA STAR, SOX
-- SIG,SOC2, ISO,NIST, COBIT, CIS
 
 <hr>
 
@@ -97,6 +93,7 @@ What are the penalties for non-compliance?
 ## HIPAA
 
 [Health Insurance Portability and Accountability Act of 1996 (HIPAA)](https://www.hhs.gov/hipaa/for-professionals/index.html)
+
 
 
 <hr> 
