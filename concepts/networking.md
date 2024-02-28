@@ -9,7 +9,7 @@
 
 
 ---
-### OSI Model vs. TCP/IP Model
+### OSI Model vs. TCP-IP Model
 
 
 ---
