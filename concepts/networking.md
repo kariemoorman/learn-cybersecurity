@@ -1,7 +1,7 @@
 ## Networking
 
 ### Table of Contents
-- [OSI Model vs. TCP/IP Model](#osi-model-vs-tcp-ip-model)
+- [OSI Model vs. TCP/IP Model](#osi-model-vs-tcp/ip-model)
 - Network Architecture
 - Network Topology
 - Network Protocols
