@@ -119,16 +119,27 @@ Who must comply?
 - Business Associates:
   - "A person or organization (other than a member of a covered entity’s workforce) using or disclosing individually identifiable health information to perform or provide functions, activities, or services for a covered entity.These functions, activities, or services include: Claims processing, Data analysis, Utilization review, Billing."
 
+What patients rights are outlined under HIPAA Privacy Rule?  
+- The Privacy Rule protects your patients’ PHI while letting you securely exchange information to coordinate your
+patients’ care. The Privacy Rule also gives patients the right to:
+  - Examine and get a copy of their medical records, including an electronic copy of their medical records.
+  - Request corrections.
+  - Restrict their health plan’s access to information about treatments they paid for in cash.
 
 How to comply with HIPAA Privacy Rule?
-
+- The Privacy Rule requires "covered entities" and "business associates" to:
+  - Notify patients about their privacy rights and how you use their information.
+  - Adopt privacy procedures and train employees to follow them.
+  - Assign an individual to make sure you’re adopting and following privacy procedures.
+  - Secure patient records containing PHI so they aren’t readily available to those who don’t need to
+see them.
 
 How to comply with HIPAA Security Rule?
 - To comply with the HIPAA Security Rule, all covered entities must:
-  - Ensure the confidentiality, integrity, and availability of all e-PHI
-  - Detect and safeguard against anticipated threats to the security of the information
-  - Protect against anticipated impermissible uses or disclosures that are not allowed by the rule
-  - Certify compliance by their workforce  
+  - Ensure the confidentiality, integrity, and availability of all e-PHI.
+  - Detect and safeguard against anticipated threats to the security of the information.
+  - Protect against anticipated impermissible uses or disclosures that are not allowed by the rule.
+  - Certify compliance by their workforce.  
   *(Source: https://www.cdc.gov/phlp/publications/topic/hipaa.html)*
 
 <hr> 
