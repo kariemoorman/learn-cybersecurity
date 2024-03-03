@@ -94,6 +94,34 @@ What are the penalties for non-compliance?
 
 [Health Insurance Portability and Accountability Act of 1996 (HIPAA)](https://www.hhs.gov/hipaa/for-professionals/index.html)
 
+HIPAA is a US federal law meant to safeguard health information when it is maintained or transmitted electronically. HIPAA requires adherence to national standards for protecting sensitive patient health information from being disclosed without the patient’s consent or knowledge. HIPAA is broken into two component parts: HIPAA Privacy Rule, which protects PHI data, and HIPAA Security Rule, which protects e-PHI data. 
 
+The Privacy Rule defines Protected Health Information (PHI), stipulates permissible uses and disclosures, lists the circumstances in which an authorization is required, and gives individuals rights over their PHI. The Security Rule deals with the subset of PHI that is created, collected, used, maintained, or transmitted electronically (ePHI), and includes three sets of safeguards that must be complied with by covered entities and business associates: Administrative (e.g., risk analyses, workforce clearance, security training, access management, and contingency planning), Physical (e.g., physical access to devices maintaining ePHI, device security, data back-ups, and secure disposal of data and devices), and Technical (e.g., password management, automatic logoff, data encryption, audit controls, and transmission security).
+
+Country of Origin: United States  
+Effective Date: 21 August 1996  
+Establishing Body: United States Congress  
+
+What is PHI (Protected Health Information)? 
+- Protected Health Information means "individually identifiable health information transmitted by electronic media, maintained in electronic media, or transmitted or maintained in any other form or medium.”
+- Any information, including genetic information, whether oral or recorded in any form or medium, that:  
+   “Is created or received by a health care provider, health plan, public health authority, employer, life insurer, school or university, or health care clearinghouse; and relates to the past, present, or future physical or mental health or condition of an individual; the provision of health care to an individual; or the past, present, or future payment for the provision of health care to an individual.”
+- PHI includes any health information relating a patient´s condition, the past, present, or future provision of healthcare, or payment thereof. It becomes individually identifiable health information when identifiers are included in the same designated record set, and it becomes protected when it is transmitted or maintained in any form (by a covered entity).
+- Individually identifiable health information includes "demographic information collected from an individual [that] is created or received by a health care provider, health plan, employer, or health care clearinghouse […] and that identifies the individual or […] can be used to identify the individual.”
+
+Who must comply?
+- 
+
+
+How to comply with HIPAA Privacy Rule?
+
+
+How to comply with HIPAA Security Rule?
+- To comply with the HIPAA Security Rule, all covered entities must:
+  - Ensure the confidentiality, integrity, and availability of all e-PHI
+  - Detect and safeguard against anticipated threats to the security of the information
+  - Protect against anticipated impermissible uses or disclosures that are not allowed by the rule
+  - Certify compliance by their workforce  
+  *(Source: https://www.cdc.gov/phlp/publications/topic/hipaa.html)*
 
 <hr> 
