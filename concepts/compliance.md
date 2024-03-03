@@ -109,8 +109,15 @@ What is PHI (Protected Health Information)?
 - PHI includes any health information relating a patient´s condition, the past, present, or future provision of healthcare, or payment thereof. It becomes individually identifiable health information when identifiers are included in the same designated record set, and it becomes protected when it is transmitted or maintained in any form (by a covered entity).
 - Individually identifiable health information includes "demographic information collected from an individual [that] is created or received by a health care provider, health plan, employer, or health care clearinghouse […] and that identifies the individual or […] can be used to identify the individual.”
 
+
 Who must comply?
-- 
+- "Covered Entities":
+  - Healthcare providers: "Every healthcare provider, regardless of size of practice, who electronically transmits health information in connection with certain transactions. These transactions include: Claims, Benefit eligibility inquiries, Referral authorization requests, Other transactions for which HHS has established standards under the HIPAA Transactions Rule."
+  - Health plans: "Health, dental, vision, and prescription drug insurers, Health maintenance organizations (HMOs), Medicare, Medicaid, Medicare+Choice, and Medicare supplement insurers, Long-term care insurers (excluding nursing home fixed-indemnity policies), Employer-sponsored group health plans, Government- and church-sponsored health plans, Multi-employer health plans."
+    - Exception: A group health plan with fewer than 50 participants that is administered solely by the employer that established and maintains the plan is not a covered entity.
+  - Healthcare clearinghouses: "Entities that process nonstandard information they receive from another entity into a standard (i.e., standard format or data content), or vice versa. In most instances, healthcare clearinghouses will receive individually identifiable health information only when they are providing these processing services to a health plan or healthcare provider as a business associate."
+- Business Associates:
+  - "A person or organization (other than a member of a covered entity’s workforce) using or disclosing individually identifiable health information to perform or provide functions, activities, or services for a covered entity.These functions, activities, or services include: Claims processing, Data analysis, Utilization review, Billing."
 
 
 How to comply with HIPAA Privacy Rule?
