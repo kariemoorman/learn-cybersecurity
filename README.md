@@ -4,15 +4,13 @@
 
 <p align='center'><i>Image generated using <a href='https://huggingface.co/spaces/prodia/sdxl-stable-diffusion-xl'>SDXL Stable Diffusion XL Model by Prodia Labs via HuggingFace</a></i>.</p>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/kariemoorman/cybersecurity-toolkit)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kariemoorman/cybersecurity-toolkit)
-![GitHub stars](https://img.shields.io/github/stars/kariemoorman/cybersecurity-toolkit?style=social)
-
 ---
 
 ### Concepts
 - Networking: [OSI Model vs. TCP/IP Model](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#osi-model-vs-tcp-ip-model), [Network Architecture](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-architecture), [Network Types](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-types), [Network Typology](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-topology), [Network Protocols](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-protocols), [Subnetting](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#subnetting)
 - Data Security & Privacy Compliance Programs: [GDPR](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#gdpr), [CCPA](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#ccpa), [HIPAA](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#hipaa)
+- Cybersecurity Frameworks: [ISO/IEC
+27701:2019](https://cdn.standards.iteh.ai/samples/71670/8a8bcac5d3614f63bf02ab5d6cc0c07c/ISO-IEC-27701-2019.pdf), [ISO/IEC 27001:2022](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:amd:1:v1:en), [NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
 
 ---
 
