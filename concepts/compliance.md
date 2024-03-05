@@ -149,6 +149,37 @@ How to comply with HIPAA Security Rule?
 
 [Payment Card Industry Data Security Standard (PCI-DSS)](https://www.pcisecuritystandards.org/document_library/)
 
+The Payment Card Industry (PCI) Data Security Standards (DSS) is a global security standard designed to ensure that all companies that accept, process, store, or transmit credit card information maintain a secure environment. The PCI-DSS is intended to protect cardholder data and prevent security breaches and fraud through increased control of credit card data. 
+
+Country of Origin: Global  
+Effective Date: 15 December 2004    
+Establishing Body: Payment Card Industry Security Standards Council (PCI SSC) 
+
+Who must comply? 
+- Any business that accepts, processes, stores, or transmits payment card data, it is subject to PCI DSS compliance. This includes merchants, service providers, financial institutions, and any entity involved in payment card transactions.
+
+How to comply with the PCI-DSS?
+- Businesses are required to adhere to 12 high-level security principles across 6 categories:
+  - Build and Maintain a Secure Network:
+    - Install and maintain a firewall configuration to protect cardholder data.
+    - Do not use vendor-supplied defaults for system passwords and other security parameters.
+  - Protect Cardholder Data:
+    - Protect stored cardholder data.
+    - Encrypt transmission of cardholder data across open, public networks.
+  - Maintain a Vulnerability Management Program:
+    - Use and regularly update antivirus software or programs.
+    - Develop and maintain secure systems and applications. 
+  - Implement Strong Access Control Measures:
+    - Restrict access to cardholder data by business need-to-know.
+    - Assign a unique ID to each person with computer access.
+    - Restrict physical access to cardholder data.
+  - Regularly Monitor and Test Networks:
+    - Track and monitor all access to network resources and cardholder data.
+    - Regularly test security systems and processes. 
+  - Maintain an Information Security Policy:
+    - Maintain a policy that addresses information security for all personnel.
+- Organizations are required to undergo regular assessments and audits to validate their compliance with the PCI DSS. The level of assessment depends on factors such as transaction volume and the specific requirements of the payment card brands involved. Compliance with PCI DSS is an ongoing process, and organizations are expected to continually monitor and update their security measures to address emerging threats and vulnerabilities. 
+
 <hr>
 
 
