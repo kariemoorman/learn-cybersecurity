@@ -25,7 +25,7 @@
 - [TCPDump](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md), [Wireshark](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md), [Nmap](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md)
 
 #### Web Application Tools
-- Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass)
+- Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass), [Katana](https://github.com/projectdiscovery/katana)
 - Fuzzing: [Ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [OSS-Fuzz](https://google.github.io/oss-fuzz/)
 - Security Testing: [Burp Suite](https://portswigger.net/), [Nikto](https://www.mankier.com/1/nikto), [Nessus](https://www.tenable.com/products/nessus)
 
