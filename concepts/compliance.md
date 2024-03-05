@@ -4,6 +4,7 @@
 - [GDPR](#gdpr)
 - [CCPA](#ccpa)
 - [HIPAA](#hipaa)
+- [PCI-DSS](#pci-dss)
 
 <hr>
 
@@ -143,3 +144,12 @@ How to comply with HIPAA Security Rule?
   *(Source: https://www.cdc.gov/phlp/publications/topic/hipaa.html)*
 
 <hr> 
+
+## PCI-DSS
+
+[Payment Card Industry Data Security Standard (PCI-DSS)](https://www.pcisecuritystandards.org/document_library/)
+
+<hr>
+
+
+
