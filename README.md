@@ -16,6 +16,7 @@
   <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#ccpa'><img src='https://control.verygoodsecurity.com/dist/assets/img/solutions/ccpa-logo.png' alt='ccpa' width="75px;" height="75px; style="max-width:100%"><br><b>CCPA</b></a></td>
   <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#hipaa'><img src='https://blxtraining.com/wp-content/uploads/HIPAA.png' alt='hipaa' width="75px;" height="75px; style="max-width:100%"><br><b>HIPAA</b></a></td>
   <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#pci-dss'><img src='https://hrma-llc.com/company-blog/wp-content/uploads/2019/01/PCI-DSS-1-1024x692.png' alt='pci-dss' width="75px;" height="75px; style="max-width:100%"><br><b>PCI-DSS</b></a></td>
+  <td align='center'><a href='https://www.fedramp.gov/'><img src='https://clipground.com/images/fedramp-logo-3.png' alt='FedRAMP' height="75px;" style="max-width:100%"><br><b>FedRAMP</b></a></td>
 </tr>
 </table>
 
@@ -29,7 +30,6 @@
   <td align='center'><a href='https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:amd:1:v1:en'><img src='https://www.keppeldatacentres.com/file/sustainability/our-green-missions/certifications-and-awards/icons/iso-27001.png' alt='iso27001' width="75px;" height="75px; style="max-width:100%"><br><b>ISO/IEC 27001:2022</b></a></td>
   <td align='center'><a href='https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf'><img src='https://hyperproof.io/wp-content/uploads/2023/06/framework-informational-page_hero-badges-nist-csf.png' alt='nist-csf' width="75px;" height="75px;" style="max-width:100%"><br><b>NIST CSF 2.0</b></a></td>
   <td align='center'><a href='https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf'><img src='https://csrc.nist.gov/CSRC/media/Projects/risk-management/images-media/RMF%20Logos/PNG%20Format/NIST%20RMF%20Graphc-Implement%20Step.png' alt='nist-800-30' width="75px;" height="75px;" style="max-width:100%"><br><b>NIST 800-30</b></a></td>
-  <td align='center'><a href='https://www.fedramp.gov/'><img src='https://clipground.com/images/fedramp-logo-3.png' alt='FedRAMP' height="75px;" style="max-width:100%"><br><b>FedRAMP</b></a></td>
 </tr>
 </table>
 
