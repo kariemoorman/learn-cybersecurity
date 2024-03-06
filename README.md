@@ -9,6 +9,7 @@
 ## Compliance & Regulatory Frameworks 
 
 ### Data Security & Privacy Compliance Programs
+
 <table>
 <tr>
   <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#gdpr'><img src="https://bookcreator.com/wp-content/uploads/2018/04/GDPR-badge.png" alt='gdpr' width="75px;" height="75px; style="max-width:100%"><br><b>GDPR</b></a></td>
@@ -32,9 +33,11 @@
 </tr>
 </table>
 
+<br>
+
 ---
 
-### Hands-On Learning
+### Learning Labs
 
 <table>
 <tr>
@@ -44,6 +47,8 @@
   <td align='center'><a href='https://pwnedlabs.io/'><img src='https://pwnedlabs.io/assets2/images/pwnedlabs-notagline.svg' alt='pwnedlabs' width="75px;" height="75px; style="max-width:100%"><br><b>PwnedLabs</b></a></td>
 </tr>
 </table>
+
+<br>
 
 ---
 
@@ -70,6 +75,7 @@
   </tr>
 </table>
 
+<br>
 
 ---
 
