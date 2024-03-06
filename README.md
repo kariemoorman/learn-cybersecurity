@@ -83,7 +83,7 @@
 
 <table>
   <tr>
-    <td colspan="2"><b>OSINT</b></td>
+    <td colspan="2"><br><b>OSINT</b><br></td>
   </tr>
   <tr>
     <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/1461/1461141.png' alt='face-reg' style="max-width:100%;" height='75px;'><br><b>Face Recognition</b></td>
@@ -98,7 +98,7 @@
     <td><a href='https://github.com/sherlock-project/sherlock#installation'>Sherlock</a>, <a href='https://whatsmyname.app/'>WhatsMyName</a></td>
   </tr>
   <tr>
-    <td colspan="2"><b>Network Analysis Tools</b></td>
+    <td colspan="2"><br><b>Network Analysis Tools</b><br></td>
   </tr>
   <tr>
     <td align='center'><img src='https://cdn1.iconfinder.com/data/icons/big-data-color-line/64/computer_network-512.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Network Scanning</b></td>
@@ -109,7 +109,7 @@
     <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md'>TCPDump</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md'>Wireshark</a></td>
   </tr>
   <tr>
-    <td colspan="2"><b>Web Application Tools</b></td>
+    <td colspan="2"><br><b>Web Application Tools</b><br></td>
   </tr>
   <tr>
     <td align='center'><img src='https://m2host.com/img/features-img/iconhome.png' alt='enum' style="max-width:100%;" height='75px;'><br><b>Directory & Subdomain Enumeration</b></td>
@@ -124,7 +124,7 @@
     <td><a href='https://portswigger.net/'>BurpSuite</a>, <a href='https://www.mankier.com/1/nikto'>Nikto</a>, <a href='https://www.tenable.com/products/nessus'>Nessus</a></td>
   </tr>
   <tr>
-    <td colspan="2"><b>Penetration Testing Tools</b></td>
+    <td colspan="2"><br><b>Penetration Testing Tools</b><br></td>
   </tr>
   <tr>
     <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/5321/5321806.png' alt='password' style="max-width:100%;" height='75px;'><br><b>Password Cracking</b></td>
@@ -143,7 +143,7 @@
     <td><a href='https://www.virustotal.com'>VirusTotal</a></td>
   </tr>
   <tr>
-    <td colspan="2"><b>Additional Resources</b></td>
+    <td colspan="2"><br><b>Additional Resources</b><br></td>
   </tr>
   <tr>
     <td align='center'><img src='https://icon-library.com/images/learning-icon-png/learning-icon-png-18.jpg' alt='learn' style="max-width:100%;" height='75px;'><br><b>Learning Guides</b></td>
