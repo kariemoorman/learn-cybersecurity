@@ -14,6 +14,20 @@
 
 ---
 
+### Learning
+
+<table>
+<tr>
+  <td align='center'><a href='https://tryhackme.com'><img src='https://assets.tryhackme.com/img/favicon.png' alt='tryhackme' width="75px;" height="75px; style="max-width:100%""><br><b>TryHackMe</b></a></td>
+  <td align='center'><a href='https://www.hackthebox.com/'><img src='https://static-00.iconduck.com/assets.00/hack-the-box-icon-2048x2048-vce7bnzq.png' alt='hackthebox' width="75px;" height="75px; style="max-width:100%""><br><b>HackTheBox</b></a></td>
+  <td align='center'><a href='https://letsdefend.io/'><img src='https://letsdefend.io/static/img/letsdefend-logo.png' alt='letsdefend' width="75px;" height="75px; style="max-width:100%""><br><b>LetsDefend</b></a></td>
+  <td align='center'><a href='https://pwnedlabs.io/'><img src='https://pwnedlabs.io/assets2/images/pwnedlabs-notagline.svg' alt='pwnedlabs' width="75px;" height="75px; style="max-width:100%""><br><b>PwnedLabs</b></a></td>
+</tr>
+</table>
+
+
+---
+
 ### Tools 
 
 #### OSINT
