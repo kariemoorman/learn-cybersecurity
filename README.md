@@ -81,13 +81,36 @@
 
 ## Tools 
 
-### OSINT
-- Face Recognition: [Pimeyes](https://pimeyes.com/en), [FaceCheck](https://facecheck.id/)
-- Search Engines: [Shodan](https://www.shodan.io), [ZoomEye](https://www.zoomeye.org/), [Wigle](https://wigle.net/), [Pulsedive](https://pulsedive.com/), [Fullhunt](https://fullhunt.io/), [GreyNoise](https://viz.greynoise.io/), [CRT](https://crt.sh), [SearchCode](https://searchcode.com/), [GrepApp](https://grep.app/), [PublicWWW](https://publicwww.com/)
-- Social Media: [Sherlock](https://github.com/sherlock-project/sherlock#installation), [WhatsMyName](https://whatsmyname.app/)
+<table>
+  <tr>
+    <td colspan="2"><b>OSINT</b></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/1461/1461141.png' alt='face-reg' style="max-width:100%;" height='75px;'><br><b>Face Recognition</b></td>
+    <td><a href='https://pimeyes.com/en'>Pimeyes</a>, <a href='https://facecheck.id/'>FaceCheckID</a> </td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/8552/8552520.png' alt='search' style="max-width:100%;" height='75px;'><br><b>Search Engines</b></td>
+    <td><a href='https://www.shodan.io'>Shodan</a>, <a href='https://www.zoomeye.org/'>ZoomEye</a>, <a href='https://wigle.net/'>Wigle</a>, <a href='https://pulsedive.com'>Pulsedive</a>, <a href='https://fullhunt.io/'>Fullhunt</a>, <a href='https://viz.greynoise.io/'>GreyNoise</a>, <a href='https://crt.sh'>CRT</a>, <a href='https://searchcode.com/'>SearchCode</a>, <a href='https://grep.app'>GrepApp</a>, <a href='https://publicwww.com/'>PublicWWW</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://pluspng.com/img-png/social-media-png-download-social-media-png-images-transparent-gallery-advertisement-3000.png' alt='search' style="max-width:100%;" height='75px;'><br><b>Social Media</b></td>
+    <td><a href='https://github.com/sherlock-project/sherlock#installation'>Sherlock</a>, <a href='https://whatsmyname.app/'>WhatsMyName</a></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Network Analysis Tools</b></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn1.iconfinder.com/data/icons/big-data-color-line/64/computer_network-512.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Network Scanning</b></td>
+    <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md'>Nmap</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Packet Capture & Analysis</b></td>
+    <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md'>TCPDump</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md'>Wireshark</a></td>
+  </tr>
 
-### Network Analysis Tools
-- [TCPDump](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md), [Wireshark](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md), [Nmap](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md)
+</table>
+
 
 ### Web Application Tools
 - Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass), [Katana](https://github.com/projectdiscovery/katana)
