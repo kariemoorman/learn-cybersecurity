@@ -112,35 +112,47 @@
     <td colspan="2"><b>Web Application Tools</b></td>
   </tr>
   <tr>
-    <td align='center'><img src='https://m2host.com/img/features-img/iconhome.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Directory & Subdomain Enumeration</b></td>
+    <td align='center'><img src='https://m2host.com/img/features-img/iconhome.png' alt='enum' style="max-width:100%;" height='75px;'><br><b>Directory & Subdomain Enumeration</b></td>
     <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md'>GoBuster</a>, <a href='https://github.com/aboul3la/Sublist3r'>Sublist3r</a>, <a href='https://github.com/owasp-amass/amass'>Amass</a>, <a href='https://github.com/projectdiscovery/katana'>Katana</a></td>
   </tr>
   <tr>
-    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/4091/4091048.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Fuzzing</b></td>
+    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/4091/4091048.png' alt='fuzz' style="max-width:100%;" height='75px;'><br><b>Fuzzing</b></td>
     <td><a href='https://github.com/ffuf/ffuf'>Ffuf</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md'>GoBuster</a>, <a href='https://google.github.io/oss-fuzz/'>OSS-Fuzz</a></td>
   </tr>
   <tr>
-    <td align='center'><img src='https://www.devstringx.com/wp-content/uploads/2018/05/Security-Testing.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Security Testing</b></td>
+    <td align='center'><img src='https://www.devstringx.com/wp-content/uploads/2018/05/Security-Testing.png' alt='sec-test' style="max-width:100%;" height='75px;'><br><b>Security Testing</b></td>
     <td><a href='https://portswigger.net/'>BurpSuite</a>, <a href='https://www.mankier.com/1/nikto'>Nikto</a>, <a href='https://www.tenable.com/products/nessus'>Nessus</a></td>
   </tr>
   <tr>
     <td colspan="2"><b>Penetration Testing Tools</b></td>
   </tr>
   <tr>
+    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/5321/5321806.png' alt='password' style="max-width:100%;" height='75px;'><br><b>Password Cracking</b></td>
+    <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra'>Hydra</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper'>John the Ripper</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat'>Hashcat</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn.iconscout.com/icon/premium/png-256-thumb/cryptographic-hash-2-810993.png' alt='hashcrack' style="max-width:100%;" height='75px;'><br><b>Hash Cracking & Decryption</b></td>
+    <td><a href='https://crackstation.net/'>CrackStation</a>, <a href='https://md5hashing.net/'>MD5Hashing</a>, <a href='https://www.dcode.fr/'>dCode</a>, <a href='https://gchq.github.io/CyberChef/'>CyberChef</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/10961/10961343.png' alt='exploit' style="max-width:100%;" height='75px;'><br><b>Exploit Discovery, Execution, & Validation</b></td>
+    <td><a href='https://www.exploit-db.com/'>Exploit-DB & Searchsploit</a>, <a href='https://gtfobins.github.io/'>GTFOBins</a>, <a href='https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS'>linPEAS</a>, <a href='https://www.metasploit.com/'>Metasploit</a>, <a href='https://sqlmap.org/'>SQLMap</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://static.vecteezy.com/system/resources/previews/010/161/598/original/malware-detected-3d-illustration-png.png' alt='malware' style="max-width:100%;" height='75px;'><br><b>Malware Detection</b></td>
+    <td><a href='https://www.virustotal.com'>VirusTotal</a></td>
+  </tr>
+  <tr>
     <td colspan="2"><b>Additional Resources</b></td>
   </tr>
   <tr>
-    <td align='center'><img src='https://icon-library.com/images/learning-icon-png/learning-icon-png-18.jpg' alt='network' style="max-width:100%;" height='75px;'><br><b>Learning Guides</b></td>
+    <td align='center'><img src='https://icon-library.com/images/learning-icon-png/learning-icon-png-18.jpg' alt='learn' style="max-width:100%;" height='75px;'><br><b>Learning Guides</b></td>
     <td><a href='https://book.hacktricks.xyz/'>HackTricks</a></td>
   </tr>
 </table>
 
 
-### Penetration Testing Tools
-- Password Cracking: [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra), [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper), [Hashcat](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat)
-- Hash Cracking & Decryption: [CrackStation](https://crackstation.net/), [MD5Hashing](https://md5hashing.net/), [dCode](https://www.dcode.fr/), [CyberChef](https://gchq.github.io/CyberChef/)
-- Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://www.exploit-db.com/), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://www.metasploit.com/), [SQLMap](https://sqlmap.org/)
-- Malware Detection: [VirusTotal](https://www.virustotal.com)
+
 
 
 
