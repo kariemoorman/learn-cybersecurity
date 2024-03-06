@@ -108,14 +108,33 @@
     <td align='center'><img src='https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Packet Capture & Analysis</b></td>
     <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md'>TCPDump</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md'>Wireshark</a></td>
   </tr>
-
+  <tr>
+    <td colspan="2"><b>Web Application Tools</b></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://m2host.com/img/features-img/iconhome.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Directory & Subdomain Enumeration</b></td>
+    <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md'>GoBuster</a>, <a href='https://github.com/aboul3la/Sublist3r'>Sublist3r</a>, <a href='https://github.com/owasp-amass/amass'>Amass</a>, <a href='https://github.com/projectdiscovery/katana'>Katana</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/4091/4091048.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Fuzzing</b></td>
+    <td><a href='https://github.com/ffuf/ffuf'>Ffuf</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md'>GoBuster</a>, <a href='https://google.github.io/oss-fuzz/'>OSS-Fuzz</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://www.devstringx.com/wp-content/uploads/2018/05/Security-Testing.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Security Testing</b></td>
+    <td><a href='https://portswigger.net/'>BurpSuite</a>, <a href='https://www.mankier.com/1/nikto'>Nikto</a>, <a href='https://www.tenable.com/products/nessus'>Nessus</a></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Penetration Testing Tools</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Additional Resources</b></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://icon-library.com/images/learning-icon-png/learning-icon-png-18.jpg' alt='network' style="max-width:100%;" height='75px;'><br><b>Learning Guides</b></td>
+    <td><a href='https://book.hacktricks.xyz/'>HackTricks</a></td>
+  </tr>
 </table>
 
-
-### Web Application Tools
-- Directory & Subdomain Enumeration: [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [Sublist3r](https://github.com/aboul3la/Sublist3r), [Amass](https://github.com/owasp-amass/amass), [Katana](https://github.com/projectdiscovery/katana)
-- Fuzzing: [Ffuf](https://github.com/ffuf/ffuf), [GoBuster](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/gobuster.md), [OSS-Fuzz](https://google.github.io/oss-fuzz/)
-- Security Testing: [Burp Suite](https://portswigger.net/), [Nikto](https://www.mankier.com/1/nikto), [Nessus](https://www.tenable.com/products/nessus)
 
 ### Penetration Testing Tools
 - Password Cracking: [Hydra](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hydra), [John the Ripper](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#john-the-ripper), [Hashcat](https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/password_cracking.md#hashcat)
@@ -123,8 +142,6 @@
 - Exploit Discovery, Execution, & Validation: [Exploit-DB & Searchsploit](https://www.exploit-db.com/), [GTFOBins](https://gtfobins.github.io/), [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), [Metasploit](https://www.metasploit.com/), [SQLMap](https://sqlmap.org/)
 - Malware Detection: [VirusTotal](https://www.virustotal.com)
 
-### Additional Resources
-- [HackTricks](https://book.hacktricks.xyz/)
 
 
 ---
