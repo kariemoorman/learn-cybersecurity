@@ -81,6 +81,13 @@
     <td align='center'><img src='https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Packet Capture & Analysis</b></td>
     <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/tcpdump.md'>TCPDump</a>, <a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/wireshark.md'>Wireshark</a></td>
   </tr>
+    <tr>
+    <td colspan="2"><br><b>Log Analysis Tools</b><br></td>
+  </tr>
+    <tr>
+    <td align='center'><img src='https://cdn3.iconfinder.com/data/icons/digital-and-internet-marketing-3-3/130/138-1024.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Log Monitoring</b></td>
+    <td><a href='https://www.splunk.com/'>Splunk</a>, <a href='https://www.digitalocean.com/community/tutorials/how-to-install-and-use-logwatch-log-analyzer-and-reporter-on-a-vps'>Logwatch</a>, <a href='https://www.elastic.co/elastic-stack/'>ELK</a></td>
+  </tr>
   <tr>
     <td colspan="2"><br><b>Web Application Tools</b><br></td>
   </tr>
