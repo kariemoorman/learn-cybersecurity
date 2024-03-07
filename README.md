@@ -52,33 +52,6 @@
 
 ---
 
-### Networking Concepts
-
-<table>
-<tr>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#osi-model-vs-tcp-ip-model'><b>OSI Model vs. TCP/IP Model</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#osi-model-vs-tcp-ip-model'><img src='https://i0.wp.com/networkwalks.com/wp-content/uploads/2020/10/TCP-Model-3.png?w=863&ssl=1' alt='tcp-osi' height="150px;"  style="max-width:100%"></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-architecture'><b>Network Architecture</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-architecture'><img src='https://techterms.com/img/lg/client-server_model_1253.png' alt='p2p-clientserver' height="150px;"  style="max-width:100%;"></a></td>
-</tr>
-  <tr>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-types'><b>Network Types</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-types'><img src='https://cdn-icons-png.flaticon.com/512/10772/10772800.png' alt='p2p-clientserver' height="150px;"  style="max-width:100%;"></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-typology'><b>Network Typology</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-typology'><img src='https://cdn1.iconfinder.com/data/icons/data-and-network-4/100/Topology_network-512.png' alt='net-typology' height="150px;" style="max-width:100%;"></a></td>
-</tr>
-  <tr>
-    <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-protocols'><b>Network Protocols</b></a></td>
-    <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#network-protocols'><img src='https://www.vrwebconsulting.com/images/protocols.png' alt='net-protocol' height="150px;" style="max-width:100%;"></a></td>
-    <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#subnetting'><b>Subnetting</b></a></td>
-    <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/networking.md#subnetting'><img src='https://www.accessagility.com/hs-fs/hubfs/Images/Blog%20Posts/43%20-%20Subnetting/subnetting-benefits-isolating-problems.png?width=590&name=subnetting-benefits-isolating-problems.png' alt='subnetting' height="150px;" style="max-width:100%;"></a></td>
-  </tr>
-</table>
-
-<br>
-
----
-
 ## Tools 
 
 <table>
