@@ -86,7 +86,7 @@
   </tr>
     <tr>
     <td align='center'><img src='https://cdn3.iconfinder.com/data/icons/digital-and-internet-marketing-3-3/130/138-1024.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Log Monitoring</b></td>
-    <td><a href='https://www.splunk.com/'>Splunk</a>, <a href='https://www.digitalocean.com/community/tutorials/how-to-install-and-use-logwatch-log-analyzer-and-reporter-on-a-vps'>Logwatch</a>, <a href='https://www.elastic.co/elastic-stack/'>ELK</a></td>
+    <td><a href='https://www.splunk.com/'>Splunk</a>, <a href='https://www.digitalocean.com/community/tutorials/how-to-install-and-use-logwatch-log-analyzer-and-reporter-on-a-vps'>Logwatch</a>, <a href='https://www.elastic.co/elastic-stack/'>ELK</a>, <a href='https://www.sshguard.net/'>SSHGuard</a></td>
   </tr>
   <tr>
     <td colspan="2"><br><b>Web Application Tools</b><br></td>
