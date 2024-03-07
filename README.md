@@ -74,7 +74,7 @@
     <td colspan="2"><br><b>Network Analysis Tools</b><br></td>
   </tr>
   <tr>
-    <td align='center'><img src='https://cdn1.iconfinder.com/data/icons/big-data-color-line/64/computer_network-512.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Network Scanning</b></td>
+    <td align='center'><img src='https://cdn1.iconfinder.com/data/icons/big-data-color-line/64/computer_network-512.png' alt='network' style="max-width:100%;" height='75px;'><br><b>Security Auditing</b></td>
     <td><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/tools/nmap.md'>Nmap</a></td>
   </tr>
   <tr>
