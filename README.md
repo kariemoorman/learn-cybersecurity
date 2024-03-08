@@ -1,6 +1,6 @@
 # learn-cybersecurity
 
-<p align='center'><img src="https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/images/network_capture.png?raw=true" alt="network" style="height:500px; width:850px;"/></p>
+<p align='center'><img src="https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/images/network_capture.png?raw=true" alt="network" style="height:500px; width:800px;"/></p>
 
 <p align='center'><i>Image generated using <a href='https://huggingface.co/spaces/prodia/sdxl-stable-diffusion-xl'>SDXL Stable Diffusion XL Model by Prodia Labs via HuggingFace</a></i>.</p>
 
@@ -65,6 +65,10 @@
   <tr>
     <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/3301/3301599.png' alt='geoint' style="max-width:100%;" height='75px;'><br><b>GEOINT</b></td>
     <td><a href='https://geospy.web.app/'>Geospy</a></td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://cdn4.iconfinder.com/data/icons/big-data-astute-vol-2/512/Metadata-512.png' alt='geoint' style="max-width:100%;" height='75px;'><br><b>Metadata</b></td>
+    <td><a href='https://exiftool.org/'>ExifTool</a></td>
   </tr>
   <tr>
     <td align='center'><img src='https://cdn-icons-png.flaticon.com/512/8552/8552520.png' alt='search' style="max-width:100%;" height='75px;'><br><b>Search Engines</b></td>
