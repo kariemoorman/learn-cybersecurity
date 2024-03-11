@@ -46,10 +46,10 @@
   <tr>
     <td align='center' valign='top'>API4</td>
     <td valign='top'>Unrestricted Resource Consumption</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'>Venmo, Optus, Experian</td>
-    <td valign='top'></td>
+    <td valign='top'>Abuse of APIs due to high volumes of API calls, large requests, etc. (formerly "lack of resources and rate limiting").</td>
+    <td valign='top'>Denial of Service (DOS), Performance impact, Mass data harvesting, Mass data loss</td>
+    <td valign='top'><ul><li>Missing/inadequate rate controls to throttle or meter request volume per user account and per client.</li><li>Execution timeouts.</li><li>Max memory allocation.</li><li>Max number of files, upload size.</li><li>Excessive operations in single request.</li><li>Excessive records returned in single request.</li></ul></td>
+    <td valign='top'><ul><li>Implement traffic controls.</li><li>Test effectiveness of controls.</li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API5</td>
