@@ -94,9 +94,9 @@
   <tr>
     <td align='center' valign='top'>API10</td>
     <td valign='top'>Unsafe Consumption of APIs</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'><ul><li></li></ul></td>
-    <td valign='top'><ul><li></li></ul></td>
+    <td valign='top'>Exposures that occur via use of 3rd party APIs, which are generally trusted. However, 3rd parties can be exploited and used to attack all downstream APIs that rely on them.</td>
+    <td valign='top'>Data theft, breach, account takeover</td>
+    <td valign='top'><ul><li>Attacker inserts malicious address data to validation site used by Client.</li><li>Client fails too validate data and gets exploited.</li></ul></td>
+    <td valign='top'><ul><li>Validate data returned by 3rd party APIs.</li><li>Evaluate security controls of 3rd party APIs.</li><li>Encrypt all API communications.</li><li>Maintain approved list of known locations integration APIs may be redirected, and routinely validate this list.</li></ul></td>
   </tr>
 </table>
