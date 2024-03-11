@@ -24,7 +24,7 @@
     <td valign='top'>BOLA: Broken Object-Level Authorization</td>
     <td valign='top'>Authorization issue; manipulation of API to access data/objects belonging to other users. Most damaging, and most difficult to detect in one's own applications.</td>
     <td valign='top'>Can lead to data loss, disclosure, data manipulation.</td>
-    <td valign='top'>Attacker authenticates as User A, then retrieves data on User B.</td>
+    <td valign='top'><ul><li>Attacker authenticates as User A, then retrieves data on User B.</li></ul></td>
     <td valign='top'><ul><li>Define data access policies and implement associated controls.</li><li>Enforce data access controls at application logic layer.</li><li>Implement automated testing to find BOLA flaws.</li></ul></td>
   </tr>
   <tr>
@@ -54,17 +54,17 @@
   <tr>
     <td align='center' valign='top'>API5</td>
     <td valign='top'>Broken Function-level Authorization</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'>Bumble</td>
-    <td valign='top'><ul><li></li></ul></td>
+    <td valign='top'>Abuse of API functionality to improperly modify objects (e.g., CREATE, UPDATE, DELETE). Often involves replacing passive methods (e.g., GET) with active (PUT, DELETE).</td>
+    <td valign='top'>Can lead to privilege escalation, Can be exploited to modify account details</td>
+    <td valign='top'><ul><li>Modify parameters: "role=admin".</li><li>Delete an invoice.</li><li>Set account balance to $0.</li><li>Set GPA to 4.0.</li></ul></td>
+    <td valign='top'><ul><li>Identify functions that expose high sensitivity capability and develop controls to limit access.</li><li>Implement continuous release testing to ensure proper behavior.</li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API6</td>
     <td valign='top'>Server-Side Request Forgery</td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
     <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
@@ -72,7 +72,7 @@
     <td valign='top'>Security Misconfiguration</td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
     <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@
     <td valign='top'>Lack of Protection from Automated Threats</td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
     <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@
     <td valign='top'>Improper Inventory Management</td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'>Experian</td>
+    <td valign='top'><ul><li></li></ul></td>
     <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@
     <td valign='top'>Unsafe Consumption of APIs</td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
     <td valign='top'><ul><li></li></ul></td>
   </tr>
 </table>
