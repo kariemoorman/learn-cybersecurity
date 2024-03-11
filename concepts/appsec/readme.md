@@ -38,17 +38,17 @@
   <tr>
     <td align='center' valign='top'>API3</td>
     <td valign='top'>Broken Object Property Level Authorization</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'>Venmo, Optus, Experian</td>
-    <td valign='top'></td>
+    <td valign='top'>Exploitation of API endpoints via reading/modifying object values. "Mass Assignment": ability to update account objects, and "Excessive Data Exposure": unnecessarily revealing sensitive data.</td>
+    <td valign='top'>Revealing protected user data.</td>
+    <td valign='top'><ul><li>User is able to set "account-type=premium".</li><li>User search endpoint returns excessive, unnecessary details (e.g., PII data).</li></ul></td>
+    <td valign='top'><ul><li>Ensure user can only access legitimate, permitted fields.</li><li>Return only minimum amount of data required for the task-specific use case.</li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API4</td>
     <td valign='top'>Unrestricted Resource Consumption</td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'>Venmo, Optus</td>
+    <td valign='top'>Venmo, Optus, Experian</td>
     <td valign='top'></td>
   </tr>
   <tr>
@@ -57,7 +57,7 @@
     <td valign='top'></td>
     <td valign='top'></td>
     <td valign='top'>Bumble</td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API6</td>
@@ -65,7 +65,7 @@
     <td valign='top'></td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API7</td>
@@ -73,7 +73,7 @@
     <td valign='top'></td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API8</td>
@@ -81,7 +81,7 @@
     <td valign='top'></td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API9</td>
@@ -89,7 +89,7 @@
     <td valign='top'></td>
     <td valign='top'></td>
     <td valign='top'>Experian</td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API10</td>
@@ -97,6 +97,6 @@
     <td valign='top'></td>
     <td valign='top'></td>
     <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'><ul><li></li></ul></td>
   </tr>
 </table>
