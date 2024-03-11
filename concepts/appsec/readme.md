@@ -10,6 +10,7 @@
 - [3 Pillars of API Security](#3-pillars-of-api-security)
 - [OWASP API Top 10](#owasp-api-top-10)
 
+<br>
 
 ### 3 Pillars of API Security
 
@@ -48,11 +49,20 @@
     </ul>
   </ul>
 </details>
-  
-#### Testing: Ensuring APIs are Free from Flaws
 
-#### Monitoring: Discovering Threats in Production
+<details>
+  <summary> <b>Testing: Ensuring APIs are Free from Flaws</b> </summary>
 
+
+</details>
+
+<details>
+  <summary> <b>Monitoring: Discovering Threats in Production</b> </summary>
+
+
+</details>
+
+<br>
 
 ### [OWASP API Top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
 
