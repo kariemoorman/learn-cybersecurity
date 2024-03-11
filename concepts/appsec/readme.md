@@ -70,8 +70,30 @@
   <summary> <b>Monitoring: Discovering Threats in Production</b> </summary>
 
 <ul>
-  <li><b>API-First Testing: </b> Evaluate the API layer independent from the Web/Mobile App layer.</li>
-  <li><b>Testing </li>
+  <li><b>Runtime Protection: </b>Policy enforcement, Authentication, Traffic filtering</li>
+  <li><b>Threat Detection: </b>Fraudulent traffic, Distributed attacks, Incident response </li>
+  <li><b>Control Validation: </b>Verify API controls, Uncover anomalies</li>
+  <li><b>Monitoring Approaches:</b>
+    <ul>
+      <li>Proactive (Blocking): API Gateway, Web App Firewall</li>
+      <li>Reactive (Alerting): Logging, SIEM, Runtime API Threat Management</li>
+    </ul>
+  </li>
+  <li><b>API Discovery:</b>
+    <ul>
+      <li>Monitoring can aid API inventory efforts: Identify API endpoints in use, Discover undocumented/unknown APIs</li>
+      <li>Comprehensive discovery requires more resources: API Gateway, WAP, Code repository, Application testing, Crawling</li>
+      <li>Reliance on traffic-based discovery misses: Internal API traffic unseen by traffic analysis tool, Pre-prod APIs, Unexercised endpoints</li>
+    </ul>
+  </li>
+  <li><b>Limitations of Monitoring:</b>
+    <ul>
+      <li>Difficult to get full visibility: Requires sensors at every network segment</li>
+      <li>High false-positive rate on threat detection: Live traffic contains limited context</li>
+      <li>SaaS-based monitoring requres data share with 3rd parties: Increased privacy concern, bandwidth requirements</li>
+      <li>Traffic-blocking solutions (e.g., firewalls) add latency</li>
+    </ul>
+  </li>
 </ul>
 
 </details>
