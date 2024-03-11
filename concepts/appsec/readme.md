@@ -62,7 +62,7 @@
   <tr>
     <td align='center' valign='top'>API6</td>
     <td valign='top'>Unrestricted Access to Sensitive Business Flows</td>
-    <td valign='top'>Typically a result of application logic flaw. Abuse of a legitimate business workflow through excessive, automated use. Rate limiting, captchas not always effective against fraudulent traffic. Rapid IP rotation makes detection difficult.</td>
+    <td valign='top'>Typically a result of application logic flaw. Abuse of a legitimate business workflow through excessive, automated use. Rate limiting, captchas not always effective against fraudulent traffic. Rapid IP rotation, clearing cookies and other, distributed attacks make detection difficult.</td>
     <td valign='top'>Loss of critical business activity</td>
     <td valign='top'><ul><li>Mass, automated ticket purchasing.</li><li>High volume referral bonuses.</li></ul></td>
     <td valign='top'><ul><li>Identify critical business workflows.</li><li>Implement fraudulent traffic detection and control.</li><li>Setup and automate testing of control mechanisms.</li></ul></td>
