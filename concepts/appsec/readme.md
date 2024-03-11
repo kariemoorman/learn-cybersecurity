@@ -213,7 +213,22 @@
   <summary> <b>⏲️ Rate-Limiting</b> </summary>
    
   <ul>
-    <li></li>
+    <li>Rate-limiting involves setting limitations on inbound requests to ensure service availability and reliability, as well as budgetary restrictions.</li>
+    <li>Solutions:</li>
+    <ul>
+      <li>Set RateLimit Headers: RateLimit-Limit: 10, RateLimit-Remaining: 1, RateLimit-Reset: 7.</li>
+      <li>HTTP Status: 429 (too many requests)</li>
+      <li>Scope: User, Origin, Global, Resource, Endpoint</li>
+      <li>Server-Side Throttling</li>
+      <li>Limiting in Layers: Gateway/Network Appliance, Service, Server, Endpoint, User, Client Signature, Quota, Logic</li>
+    </ul>
+    <li>Additional Tips:</li>
+    <ul>
+      <li>Avoid using relational SQL operations to manage throttling.</li>
+      <li>Avoid using disk operations.</li>
+      <li>Include IP with User.</li>
+      <li>Use cache where appropriate (e.g., same query). Example throttle solution: memcache-style (key = user, value = scope, TTL, time frame of throttle). Example cache solution: memcache/key-value store (key = query hash, value = result, TTL = short time window).</li>
+    </ul>
   </ul>
   
 </details>
