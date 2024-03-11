@@ -7,13 +7,15 @@
 ----
 
 ## API Security
-- [3 Pillars of API Security](3-pillars-of-api-security)
+- [3 Pillars of API Security](#3-pillars-of-api-security)
 - [OWASP API Top 10](#owasp-api-top-10)
+
 
 ### 3 Pillars of API Security
 
-
-#### Governance: Developing Secure APIs
+<details>
+  <summary> <b>Governance: Developing Secure APIs</b> </summary>
+  
   <ul>
     <li><b>Benefits: </b>Establish consistency, Set expectations, Establishing standard processes, Enforcing security</li>
     <li><b>Awareness: </b>Know your APIs (e.g., infrastructure), Know your data (e.g., access), Know your risks</li>
@@ -33,14 +35,24 @@
       </li>
     </ul>
     <li><b>Policy: </b>Engineering process (e.g., dev & deploy), API documentation, Style guides</li>
+    <ul>
+      <li>Design Guides: Promote Governance, Consistency</li>
+        <ul>
+          <li>Authentication: type (basic, token, certificate), how to implement</li>
+          <li>Authorization: Who has access to what, Enforcement policies</li>
+          <li>Naming Conventions: URIs as nouns, Methods as verbs, Pluralization, Hierarchy, Case, Language, No jargon/abbreviations</li>
+          <li>Error Codes: Status codes, Reference ID, Human readable messages</li>
+          <li>Versioning: When to implement vs. not, Version types</li>
+          <li>Units, Formats, Standards: Date/time formats, Timezones</li>
+        </ul>
+    </ul>
   </ul>
+</details>
   
 #### Testing: Ensuring APIs are Free from Flaws
 
 #### Monitoring: Discovering Threats in Production
 
-
---- 
 
 ### [OWASP API Top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
 
