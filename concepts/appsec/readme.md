@@ -78,18 +78,18 @@
   <tr>
     <td align='center' valign='top'>API8</td>
     <td valign='top'>Security Misconfiguration</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'><ul><li></li></ul></td>
-    <td valign='top'><ul><li></li></ul></td>
+    <td valign='top'>Encompasses a lack of hardening to unnecessary services.</td>
+    <td valign='top'>Misconfigurations can expose sensitive user data, Potential for full server compromise (e.g., Log4J)</td>
+    <td valign='top'><ul><li>Lack of security hardening.</li><li>Improperly configured permissions.</li><li>Missing security patches.</li><li>Unncessary features enabled.</li><li>Missing TLS.</li><li>CORS policy missing/improperly set.</li></ul></td>
+    <td valign='top'><ul><li>Implement hardening procedures.</li><li>Routinely review configurations.</li><li>Implement automated, continuous security testing.</li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API9</td>
     <td valign='top'>Improper Inventory Management</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'><ul><li></li></ul></td>
-    <td valign='top'><ul><li></li></ul></td>
+    <td valign='top'>Unauthorized API access via old, unused API version, or thorugh trusted 3rd parties.</td>
+    <td valign='top'>Data/account theft via unretired APIs, Exposure to sensitive data via improperly secured 3rd party APIs</td>
+    <td valign='top'><ul><li>Old versions of APIs.</li><li>Unpatched endpoints.</li><li>Endpoints with weaker security.</li><li>Outdated documentation.</li><li>Unnecessarily exposed endpoints.</li><li>API access via 3rd party.</li></ul></td>
+    <td valign='top'><ul><li>Deploy/manage all APIs in Gateway.</li><li>Define rules for versioning and retirement.</li><li>Periodically audit 3rd party access.</li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API10</td>
