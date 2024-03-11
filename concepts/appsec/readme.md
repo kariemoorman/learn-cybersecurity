@@ -7,6 +7,8 @@
 ----
 
 ## API Security
+- [3 Pillars of API Security](3-pillars-of-api-security)
+- [OWASP API Top 10](#owasp-api-top-10)
 
 ### 3 Pillars of API Security
 
