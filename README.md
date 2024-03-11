@@ -12,10 +12,10 @@
 
 <table>
 <tr>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#gdpr'><img src="https://bookcreator.com/wp-content/uploads/2018/04/GDPR-badge.png" alt='gdpr' width="75px;" height="75px; style="max-width:100%"><br><b>GDPR</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#ccpa'><img src='https://control.verygoodsecurity.com/dist/assets/img/solutions/ccpa-logo.png' alt='ccpa' width="75px;" height="75px; style="max-width:100%"><br><b>CCPA</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#hipaa'><img src='https://blxtraining.com/wp-content/uploads/HIPAA.png' alt='hipaa' width="75px;" height="75px; style="max-width:100%"><br><b>HIPAA</b></a></td>
-  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance.md#pci-dss'><img src='https://hrma-llc.com/company-blog/wp-content/uploads/2019/01/PCI-DSS-1-1024x692.png' alt='pci-dss' width="75px;" height="75px; style="max-width:100%"><br><b>PCI-DSS</b></a></td>
+  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance/readme.md#gdpr'><img src="https://bookcreator.com/wp-content/uploads/2018/04/GDPR-badge.png" alt='gdpr' width="75px;" height="75px; style="max-width:100%"><br><b>GDPR</b></a></td>
+  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance/readme.md#ccpa'><img src='https://control.verygoodsecurity.com/dist/assets/img/solutions/ccpa-logo.png' alt='ccpa' width="75px;" height="75px; style="max-width:100%"><br><b>CCPA</b></a></td>
+  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance/readme.md#hipaa'><img src='https://blxtraining.com/wp-content/uploads/HIPAA.png' alt='hipaa' width="75px;" height="75px; style="max-width:100%"><br><b>HIPAA</b></a></td>
+  <td align='center'><a href='https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/concepts/compliance/readme.md#pci-dss'><img src='https://hrma-llc.com/company-blog/wp-content/uploads/2019/01/PCI-DSS-1-1024x692.png' alt='pci-dss' width="75px;" height="75px; style="max-width:100%"><br><b>PCI-DSS</b></a></td>
   <td align='center'><a href='https://www.fedramp.gov/'><img src='https://clipground.com/images/fedramp-logo-3.png' alt='FedRAMP' height="75px;" style="max-width:100%"><br><b>FedRAMP</b></a></td>
 </tr>
 </table>
