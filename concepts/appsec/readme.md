@@ -8,6 +8,7 @@
 
 ## API Security
 - [3 Pillars of API Security](#3-pillars-of-api-security)
+- [Securing API Servers](#securing-api-servers)
 - [OWASP API Top 10](#owasp-api-top-10)
 
 <br>
@@ -97,6 +98,23 @@
 </ul>
 
 </details>
+
+<br>
+
+### Securing API Servers 
+
+ <details>
+  <summary> <b>CORS (Cross-Origin Resource Sharing</b> </summary>
+  <ul>
+    <li>CORS is a collection of browser controls set by web servers. CORS defines what responses are allowed (e.g., POST, GET, DELETE), and from where (e.g., UI): Origins, Credentials, Methods, Headers</li>
+    <li>Why use CORS?
+      <ul>
+        <li>You have an API or web server with assets you want to protect (e.g., user data, intellectual property, branding).</li>
+        <li>You don't want anyone to impersonate you.</li>
+      </ul>
+    </li>
+  </ul>
+ </details>
 
 <br>
 
