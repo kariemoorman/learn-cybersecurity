@@ -20,23 +20,23 @@
     <th>Prevention</th>
   </tr>
   <tr>
-    <td align='center' valign='top'>1</td>
+    <td align='center' valign='top'>API1</td>
     <td valign='top'>BOLA: Broken Object-Level Authorization</td>
-    <td valign='top'>Manipulation of API to access data/objects belonging to other users. Most damaging, and most difficult to detect in one's own applications.</td>
+    <td valign='top'>Authorization issue; manipulation of API to access data/objects belonging to other users. Most damaging, and most difficult to detect in one's own applications.</td>
     <td valign='top'>Can lead to data loss, disclosure, data manipulation.</td>
     <td valign='top'>Attacker authenticates as User A, then retrieves data on User B.</td>
     <td valign='top'><ul><li>Define data access policies and implement associated controls.</li><li>Enforce data access controls at application logic layer.</li><li>Implement automated testing to find BOLA flaws.</li></ul></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>2</td>
+    <td align='center' valign='top'>API2</td>
     <td valign='top'>Broken Authentication</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'>Instagram, Bumble, T-Mobile, Venmo, Peleton</td>
-    <td valign='top'></td>
+    <td valign='top'>Weak/poor authentication creates application vulnerability: missing security controls, poorly impelemented controls.</td>
+    <td valign='top'>Account Takeover, Data Theft, Unauthorized Transactions</td>
+    <td valign='top'><ul><li>Weak password requirements.</li><li>Credential stuffing: brute force ID/PW.</li><li>No captcha/rate limiting/lockout.</li><li>Non-validation of token expiration.</li><li>Insecure password storage.</li></ul></td>
+    <td valign='top'><ul><li>Define authentication policies and standards; follow best practices</li><li>Implement continuous testing.</li></ul></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>3</td>
+    <td align='center' valign='top'>API3</td>
     <td valign='top'>Broken Object Property Level Authorization</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -44,7 +44,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>4</td>
+    <td align='center' valign='top'>API4</td>
     <td valign='top'>Unrestricted Resource Consumption</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -52,7 +52,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>5</td>
+    <td align='center' valign='top'>API5</td>
     <td valign='top'>Broken Function-level Authorization</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -60,7 +60,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>6</td>
+    <td align='center' valign='top'>API6</td>
     <td valign='top'>Server-Side Request Forgery</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -68,7 +68,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>7</td>
+    <td align='center' valign='top'>API7</td>
     <td valign='top'>Security Misconfiguration</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -76,7 +76,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>8</td>
+    <td align='center' valign='top'>API8</td>
     <td valign='top'>Lack of Protection from Automated Threats</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -84,7 +84,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>9</td>
+    <td align='center' valign='top'>API9</td>
     <td valign='top'>Improper Inventory Management</td>
     <td valign='top'></td>
     <td valign='top'></td>
@@ -92,7 +92,7 @@
     <td valign='top'></td>
   </tr>
   <tr>
-    <td align='center' valign='top'>10</td>
+    <td align='center' valign='top'>API10</td>
     <td valign='top'>Unsafe Consumption of APIs</td>
     <td valign='top'></td>
     <td valign='top'></td>
