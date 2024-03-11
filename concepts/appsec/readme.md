@@ -181,6 +181,9 @@
       <li>Treat cookies as untrusted user data.</li>
       <li>Be restrictive on what data is stored in cookies.</li>
       <li>Analyze cookies from an offensive mindset.</li>
+      <li>Add timeout on cookies.</li>
+      <li>Add HTTP Only flag to prevent JS from other sites reading the cookies.</li>
+      <li>Set a secure flag so that the cookie can't be read in-transit.</li>
     </ul>
   </ul>
   
