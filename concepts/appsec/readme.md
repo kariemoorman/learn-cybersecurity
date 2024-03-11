@@ -53,12 +53,26 @@
 <details>
   <summary> <b>Testing: Ensuring APIs are Free from Flaws</b> </summary>
 
+<ul>
+  <li><b>API-First Testing: </b> Evaluate the API layer independent from the Web/Mobile App layer.</li>
+  <li><b>API Pentesting Regiment:</b> Reconnaissance, Scanning, Endpoint Analysis, Authentication, Authorization, Assets Management, Injection, Mass Assignment, Rate-Limiting</li>
+  <li><b>PenTesting Categories:</li>
+    <ul>
+      <li>API Security: Unsecure Endpoints, Authentication exploits, Enumeration, DOS & Rate-limiting, Missing TLS/SSL issues, Fuzzing/Injection, Fuzzing/Input validation, Server-side resource forgery, Server properties leaks</li>
+      <li>Data Security: Access Control, Excessive/Sensitive data exposure, PII/PHI/PCI-DSS data, File/Directory exposure, Encryption At-Rest, Data exfiltration</li>
+      <li>Business Logic: Cross-account access, API function abuse, Role-based access control, Pen-testing</li>
+    </ul>
+</ul>
 
 </details>
 
 <details>
   <summary> <b>Monitoring: Discovering Threats in Production</b> </summary>
 
+<ul>
+  <li><b>API-First Testing: </b> Evaluate the API layer independent from the Web/Mobile App layer.</li>
+  <li><b>Testing </li>
+</ul>
 
 </details>
 
