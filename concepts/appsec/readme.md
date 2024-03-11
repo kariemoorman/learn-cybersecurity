@@ -104,7 +104,7 @@
 ### Securing API Servers 
 
  <details>
-  <summary> <b>CORS (Cross-Origin Resource Sharing)</b> </summary>
+  <summary> <b>⚔️ CORS (Cross-Origin Resource Sharing)</b> </summary>
    
   <ul>
     <li>CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS defines what responses are allowed (e.g., POST, GET, DELETE), and from where (e.g., UI), using Origins, Credentials, Methods, and Headers. The CORS mechanism supports secure cross-origin requests and data transfers between browsers and web servers. </li>
@@ -130,7 +130,7 @@
  </details>
 
  <details>
-  <summary> <b>Error Disclosure</b> </summary>
+  <summary> <b>🛑 Error Disclosure</b> </summary>
    
   <ul>
     <li>Handling errors is necessary, however it is important to review the error messaging to ensure you are not giving away information that could make it easier to attack your system. Ideally you want to have a set of error messages for developers to debug the system that is separate from what the end customers see. Design error handling with operational mindset of "how can this be used maliciously."</li>
@@ -149,16 +149,45 @@
 </details>
 
  <details>
-  <summary> <b>Information Leak</b> </summary>
+  <summary> <b>💦 Server Information Leak</b> </summary>
    
   <ul>
-    <li></li>
+    <li>A server information leak is anything that advertises the technology stack to external parties. Typically this advertisement is in the headers, as web servers advertise in headers by default, as well as appliances, caching, and cloud providers.</li>
+    <li>Header Analysis:</li>
+    <ul>
+      <li>Use a client to access the API (nothing cached).</li>
+      <li>Headers will be returned in a client or programming language.</li>
+      <li>Look for Server, X-Powered-By, X-Version.</li>
+    </ul>
   </ul>
   
 </details>
  
  <details>
-  <summary> <b>Insecure Cookies</b> </summary>
+  <summary> <b>🍪 Insecure Cookies</b> </summary>
+   
+  <ul>
+    <li>Insecure cookies are cookies stored without restrictive security settings, as well as including unecessary information within the cookie. Because cookies are cumulative, it will keep as much information sent from the server in an additive manner.</li>
+    <li>Cookie Decoding: Find interesting keys/fields, Sort data types (e.g., Unique ID string, Numeric ID, Booleans, Encoded data), Decoding data (e.g., Delimiters, Base64 decode)</li>
+    <li>Cookie Issues:</li>
+    <ul>
+      <li>Cookie forgine/Fuzzing (Trusting cookie data)</li>
+      <li>Data harvesting, different site (http only + no domains)</li>
+      <li>Data harvesting via XSS (http only)</li>
+      <li>Data harvesting in-transit (secure flag)</li>
+    </ul>
+    <li>Solutions:</li>
+    <ul>
+      <li>Treat cookies as untrusted user data.</li>
+      <li>Be restrictive on what data is stored in cookies.</li>
+      <li>Analyze cookies from an offensive mindset.</li>
+    </ul>
+  </ul>
+  
+</details>
+
+ <details>
+  <summary> <b>🛤️ Path Traversal</b> </summary>
    
   <ul>
     <li></li>
@@ -167,16 +196,7 @@
 </details>
 
  <details>
-  <summary> <b>Path Traversal</b> </summary>
-   
-  <ul>
-    <li></li>
-  </ul>
-  
-</details>
-
- <details>
-  <summary> <b>Rate-Limiting</b> </summary>
+  <summary> <b>⏲️ Rate-Limiting</b> </summary>
    
   <ul>
     <li></li>
