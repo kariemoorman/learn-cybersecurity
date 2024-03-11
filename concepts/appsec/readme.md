@@ -10,16 +10,33 @@
 
 ### 3 Pillars of API Security
 
-<ol>
-  <li><b>Governance: Developing Secure APIs</b></li>
+
+#### Governance: Developing Secure APIs
   <ul>
     <li><b>Benefits: </b>Establish consistency, Set expectations, Establishing standard processes, Enforcing security</li>
     <li><b>Awareness: </b>Know your APIs (e.g., infrastructure), Know your data (e.g., access), Know your risks</li>
+    <ul>
+      <li>Get Full Inventory of APIs: Purpose, Owner, Documentation</li>
+      <li>Standardize & Enforce API Deployment Process: Ensure APIs are deployed after proper validation and approval, Enforce governance via Gateway & Marketplace</li>
+      <li>Mandate API Documentation: Ensure APIs are consistent and reusable, Define documentation requirements</li>
+      <li>Create API Development Standards: Style guides, Authentication requirements, Versioning, PII tracking</li>
+      <li>Threat Modeling: 
+        <ul>
+          <li>Identify: APIs, Business flows, Data, Access Paths</li>
+          <li>Assess: Vulnerabilities, Logic flaws, Access controls, 3rd party risk</li>
+          <li>Probability: Examine likelihood of attack</li>
+          <li>Impact: Understand Damage, Loss, Consequences of attack</li>
+          <li>Mitigation: Develop a plan to address the risk</li>
+        </ul>
+      </li>
+    </ul>
     <li><b>Policy: </b>Engineering process (e.g., dev & deploy), API documentation, Style guides</li>
   </ul>
-  <li><b>Testing: Ensuring APIs are Free from Flaws</b></li>
-  <li><b>Monitoring: Discovering Threats in Production</b></li>
-</ol> 
+  
+#### Testing: Ensuring APIs are Free from Flaws
+
+#### Monitoring: Discovering Threats in Production
+
 
 --- 
 
