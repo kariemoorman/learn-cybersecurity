@@ -105,6 +105,7 @@
 
  <details>
   <summary> <b>CORS (Cross-Origin Resource Sharing)</b> </summary>
+   
   <ul>
     <li>CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS defines what responses are allowed (e.g., POST, GET, DELETE), and from where (e.g., UI), using Origins, Credentials, Methods, and Headers. The CORS mechanism supports secure cross-origin requests and data transfers between browsers and web servers. </li>
     <li>The Cross Origin Site Policy header governs whether content can be mixed between locations.</li>
@@ -125,7 +126,64 @@
       </ul>
     </li>
   </ul>
+  
  </details>
+
+ <details>
+  <summary> <b>Error Disclosure</b> </summary>
+   
+  <ul>
+    <li>Handling errors is necessary, however it is important to review the error messaging to ensure you are not giving away information that could make it easier to attack your system. Ideally you want to have a set of error messages for developers to debug the system that is separate from what the end customers see. Design error handling with operational mindset of "how can this be used maliciously."</li>
+    <li>Types of Generic Error Messages:</li>
+    <ul>
+      <li>"Something Went Wrong" (e.g., messages: [{type: "ERROR", key: "", value: "Check the email id."}])</li>
+      <li>Brand Approach: "404 + Image" Error for anything you cannot access, whether or not it actually exists. In this way, the end user is not given more information than is necessary (i.e., "unauthorized").</li>
+    </ul>
+    <li>Error Handling Best Practices:</li>
+    <ul>
+      <li>Do's: Error early, Log the error, Include useful information for developers in the error, Display something specifically crafted for users in the error</li>
+      <li>Don'ts: Bypass erros, Expose developer information to customers</li>
+    </ul>
+  </ul>
+  
+</details>
+
+ <details>
+  <summary> <b>Information Leak</b> </summary>
+   
+  <ul>
+    <li></li>
+  </ul>
+  
+</details>
+ 
+ <details>
+  <summary> <b>Insecure Cookies</b> </summary>
+   
+  <ul>
+    <li></li>
+  </ul>
+  
+</details>
+
+ <details>
+  <summary> <b>Path Traversal</b> </summary>
+   
+  <ul>
+    <li></li>
+  </ul>
+  
+</details>
+
+ <details>
+  <summary> <b>Rate-Limiting</b> </summary>
+   
+  <ul>
+    <li></li>
+  </ul>
+  
+</details>
+
 
 <br>
 
