@@ -193,7 +193,18 @@
   <summary> <b>🛤️ Path Traversal</b> </summary>
    
   <ul>
-    <li></li>
+    <li>Path traversal is anything that allows an attacker access to unintented paths on a server (e.g., /etc/passwd). This includes directory traversal and direct file access/reference.</li>
+    <li>Common Painpoints: Dynamic file-includes which introduce runtime vulnerabilities, Loose Spec "str", Input data validation, Server config (e.g., Directory listings, Allowed include paths)</li>
+    <li>Solutions:</li>
+    <ul>
+      <li>Input Sanitization: Specify what is allowed (ENUM, Array, List). Don't try to filter out bad.  Harden specs (e.g., max string length).</li>
+      <li>Disable server directory listings.</li>
+      <li>Don't store anything sensitive at web root (e.g., env configs, readme's, .git, .rsa).</li>
+      <li>Hardening server configurations. Put web root on a separate drive from system.</li>
+      <li>Remove variables from paths in source code.</li>
+      <li>When in doubt, return ERROR.</li>
+      <li>Defensive coding.</li>
+    </ul>
   </ul>
   
 </details>
