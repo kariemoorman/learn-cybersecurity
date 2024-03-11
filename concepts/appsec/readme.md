@@ -70,10 +70,10 @@
   <tr>
     <td align='center' valign='top'>API7</td>
     <td valign='top'>Server-Side Request Forgery</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'><ul><li></li></ul></td>
-    <td valign='top'><ul><li></li></ul></td>
+    <td valign='top'>Exploiting URL inputs to make a request to a malicious, 3rd party server.</td>
+    <td valign='top'>Potential data leaks, SSRF creates a channel for malicious requests, data access or other fraudulent activity.</td>
+    <td valign='top'><ul><li>Local file injection.</li><li>Malware downloaded from malicious site.</li><li>User submits (e.g., http://localhost/api/user-data).</li></ul></td>
+    <td valign='top'><ul><li>Validate and sanitize ALL user-supplied information, including URL parameters.</li><li>Ensure communication permitted with trusted resources only.</li><li>Test URL validation effectiveness (e.g., fuzzing).</li></ul></td>
   </tr>
   <tr>
     <td align='center' valign='top'>API8</td>
