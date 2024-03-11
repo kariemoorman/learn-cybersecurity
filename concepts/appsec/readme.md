@@ -104,13 +104,24 @@
 ### Securing API Servers 
 
  <details>
-  <summary> <b>CORS (Cross-Origin Resource Sharing</b> </summary>
+  <summary> <b>CORS (Cross-Origin Resource Sharing)</b> </summary>
   <ul>
-    <li>CORS is a collection of browser controls set by web servers. CORS defines what responses are allowed (e.g., POST, GET, DELETE), and from where (e.g., UI): Origins, Credentials, Methods, Headers</li>
+    <li>CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS defines what responses are allowed (e.g., POST, GET, DELETE), and from where (e.g., UI), using Origins, Credentials, Methods, and Headers. The CORS mechanism supports secure cross-origin requests and data transfers between browsers and web servers. </li>
+    <li>The Cross Origin Site Policy header governs whether content can be mixed between locations.</li>
     <li>Why use CORS?
       <ul>
         <li>You have an API or web server with assets you want to protect (e.g., user data, intellectual property, branding).</li>
         <li>You don't want anyone to impersonate you.</li>
+      </ul>
+    </li>
+    <li>CORS Response Headers:
+      <ul>
+        <li>Access-Control-Allow-Origin</li>
+        <li>Access-Control-Allow-Credentials</li>
+        <li>Access-Control-Expose-Headers</li>
+        <li>Access-Control-Max-Age</li>
+        <li>Access-Control-Allow-Methods</li>
+        <li>Access-Control-Allow-Headers</li>
       </ul>
     </li>
   </ul>
