@@ -5,10 +5,12 @@
 
 
 ----
-
 ## API Security
+
+### Table of Contents
 - [3 Pillars of API Security](#3-pillars-of-api-security)
 - [Securing API Servers](#securing-api-servers)
+- [PCI-DSS Compliance](#pci-dss-compliance)
 - [OWASP API Top 10](#owasp-api-top-10)
 
 <br>
@@ -233,6 +235,99 @@
   
 </details>
 
+<br>
+
+### PCI-DSS Compliance 
+
+<details>
+  <summary>2.2.7 Admin Console Access</summary>
+<p>"[A]ll non console administrative access is encrypted using strong cryptography." </p>
+<p>Encrypted admin console access is required, not just for browser based UIs, but also for application programming interfaces or APIs.</p> 
+
+</details>
+
+<details>
+  <summary>6.0 Secure Software & Apps</summary>
+
+  <p></p>
+
+</details>
+
+
+<details>
+  <summary>6.2.1 Secure SW Development</summary>
+
+  <p></p>
+
+</details>
+
+
+<details>
+  <summary>6.2.2 Annual Developer Training</summary>
+
+  <p></p>
+
+</details>
+
+
+
+<details>
+  <summary>6.2.3 Software Code Review</summary>
+
+  <p></p>
+
+</details>
+
+
+
+<details>
+  <summary>6.2.4 Prevent Common Vulnerabilities</summary>
+
+  <p></p>
+
+</details>
+
+<details>
+  <summary>6.3.1 Vulnerability Management</summary>
+
+  <p></p>
+
+</details>
+
+<details>
+  <summary>6.3.2 Software Inventory</summary>
+
+  <p></p>
+
+</details>
+
+<details>
+  <summary>6.4.1-2 Attack Protection</summary>
+
+  <p></p>
+
+</details>
+
+<details>
+  <summary>7.0 Strong Access Control</summary>
+
+  <p></p>
+
+</details> 
+
+<details>
+  <summary>10.0 Logging & Monitoring</summary>
+
+  <p></p>
+
+</details>
+
+<details>
+  <summary>11.0 Security Testing</summary>
+
+  <p></p>
+
+</details>
 
 <br>
 
@@ -328,3 +423,5 @@
     <td valign='top'><ul><li>Validate data returned by 3rd party APIs.</li><li>Evaluate security controls of 3rd party APIs.</li><li>Encrypt all API communications.</li><li>Maintain approved list of known locations integration APIs may be redirected, and routinely validate this list.</li></ul></td>
   </tr>
 </table>
+
+</details>
