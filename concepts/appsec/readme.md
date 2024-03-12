@@ -239,10 +239,14 @@
 
 ### PCI-DSS Compliance 
 
+<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci-dss_requirements.png' alt='pci' /></p>
+
 <details>
   <summary>2.2.7 Admin Console Access</summary>
 <p>"[A]ll non console administrative access is encrypted using strong cryptography." </p>
 <p>Encrypted admin console access is required, not just for browser based UIs, but also for application programming interfaces or APIs.</p> 
+
+<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_2-2-7.png' alt='pci' /></p>
 
 </details>
 
