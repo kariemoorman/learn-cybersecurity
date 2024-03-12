@@ -30,6 +30,7 @@
   <td align='center'><a href='https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:amd:1:v1:en'><img src='https://www.keppeldatacentres.com/file/sustainability/our-green-missions/certifications-and-awards/icons/iso-27001.png' alt='iso27001' width="75px;" height="75px; style="max-width:100%"><br><b>ISO/IEC 27001:2022</b></a></td>
   <td align='center'><a href='https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf'><img src='https://hyperproof.io/wp-content/uploads/2023/06/framework-informational-page_hero-badges-nist-csf.png' alt='nist-csf' width="75px;" height="75px;" style="max-width:100%"><br><b>NIST CSF 2.0</b></a></td>
   <td align='center'><a href='https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf'><img src='https://csrc.nist.gov/CSRC/media/Projects/risk-management/images-media/RMF%20Logos/PNG%20Format/NIST%20RMF%20Graphc-Implement%20Step.png' alt='nist-800-30' width="75px;" height="75px;" style="max-width:100%"><br><b>NIST 800-30</b></a></td>
+  <td align='center'><a href='https://csrc.nist.gov/pubs/fips/140-3/final'><img src='https://www.onwardsecurity.com/upload/news_lab_security_b/ALL_news_lab_security_22H17_PbE3g8RVvF.png' alt='fips' width='120px;' height="75px;" style="max-width:100%"><br><b>FIPS 140-3</b></a></td>
 </tr>
 </table>
 
