@@ -243,27 +243,30 @@
 
 <details>
   <summary>2.2.7 Admin Console Access</summary>
-<p>"[A]ll non console administrative access is encrypted using strong cryptography." </p>
-<p>Encrypted admin console access is required, not just for browser based UIs, but also for application programming interfaces or APIs.</p> 
+  <br>
+  <p>"[A]ll non console administrative access is encrypted using strong cryptography." </p>
+  <p>Encrypted admin console access is required, not just for browser based UIs, but also for application programming interfaces or APIs.</p> 
 
-<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_2-2-7.png' alt='pci-277' /></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_2-2-7.png' alt='pci-277' /></p>
 
 </details>
 
 <details>
   <summary>6.0 Secure Software & Apps</summary>
-
+  <br>
   <p>Apply Software Lifecycle (SLC) Processes and secure coding techniques in order to avoid software vulnerabilities. Create a culture of security by understanding application risks, writing more secure code, testing for vulnerabilities, and fixing issues ahead of production (i.e., shift left).</p>
 
   <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-0.png' alt='pci-60' /></p>
+  
 </details>
 
 
 <details>
   <summary>6.2.1 Secure SW Development</summary>
-
+  <br>
   <p></p>
-
+   <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-1.png' alt='pci-621' /></p>
+  
 </details>
 
 
