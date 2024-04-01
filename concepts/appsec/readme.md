@@ -320,28 +320,36 @@
 <details>
   <summary>6.4.1-2 Attack Protection</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-4.png' alt='pci-64' /></p>
 
 </details>
 
 <details>
   <summary>7.0 Strong Access Control</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_7-0.png' alt='pci-70' /></p>
 
 </details> 
 
 <details>
   <summary>10.0 Logging & Monitoring</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_10.png' alt='pci-10' /></p>
 
 </details>
 
 <details>
   <summary>11.0 Security Testing</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_11.png' alt='pci-11' /></p>
 
 </details>
 
