@@ -253,7 +253,7 @@
 <details>
   <summary>6.0 Secure Software & Apps</summary>
 
-  <p></p>
+  <p>Apply Software Lifecycle (SLC) Processes and secure coding techniques in order to avoid software vulnerabilities. Create a culture of security by understanding application risks, writing more secure code, testing for vulnerabilities, and fixing issues ahead of production (i.e., shift left).</p>
 
   <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-0.png' alt='pci-60' /></p>
 </details>
