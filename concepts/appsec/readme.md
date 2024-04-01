@@ -265,15 +265,16 @@
   <summary>6.2.1 Secure SW Development</summary>
   <br>
   <p></p>
-   <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-1.png' alt='pci-621' /></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-1.png' alt='pci-621' /></p>
   
 </details>
 
 
 <details>
   <summary>6.2.2 Annual Developer Training</summary>
-
-  <p></p>
+  <br>
+  <p>Train developers to be security aware, incorporate robust automated testing into development lifecycle, and uphold security best practices. For API development, API developers must receive training on API security risks and best practices for avoiding vulnerabilities and exposures.</p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-2.png' alt='pci-622' /></p>
 
 </details>
 
@@ -281,8 +282,9 @@
 
 <details>
   <summary>6.2.3 Software Code Review</summary>
-
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-3.png' alt='pci-623' /></p>
 
 </details>
 
