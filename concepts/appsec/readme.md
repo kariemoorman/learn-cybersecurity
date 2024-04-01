@@ -293,21 +293,27 @@
 <details>
   <summary>6.2.4 Prevent Common Vulnerabilities</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-4.png' alt='pci-624' /></p>
 
 </details>
 
 <details>
   <summary>6.3.1 Vulnerability Management</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-3-1.png' alt='pci-631' /></p>
 
 </details>
 
 <details>
   <summary>6.3.2 Software Inventory</summary>
 
+  <br>
   <p></p>
+  <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-3-2.png' alt='pci-632' /></p>
 
 </details>
 
