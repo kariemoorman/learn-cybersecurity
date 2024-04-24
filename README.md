@@ -46,6 +46,7 @@
   <td align='center'><a href='https://www.hackthebox.com/'><img src='https://static-00.iconduck.com/assets.00/hack-the-box-icon-2048x2048-vce7bnzq.png' alt='hackthebox' width="75px;" height="75px;" style="max-width:100%"><br><b>HackTheBox</b></a></td>
   <td align='center'><a href='https://letsdefend.io/'><img src='https://app-ld-img.s3.amazonaws.com/static/letsdefend-logo.png' alt='letsdefend' width="75px;" height="75px;" style="max-width:100%"><br><b>LetsDefend</b></a></td>
   <td align='center'><a href='https://pwnedlabs.io/'><img src='https://media.licdn.com/dms/image/D4D0BAQGyV54pXIwndg/company-logo_200_200/0/1688997422011?e=2147483647&v=beta&t=GV1lgZcCLhyGligX9RkrwzjEQD-nZouBq6jJZSFA0ps' alt='pwnedlabs' width="75px;" height="75px;" style="max-width:100%"><br><b>PwnedLabs</b></a></td>
+  <td align='center'><a href='https://cryptohack.org/'><img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ffc%2Faa%2F7a%2Ffcaa7a26ad2947a229cd713fbbc727aa.png&f=1&nofb=1&ipt=fe7a720dfd49a7d842586d7fd6fb8fc428cac45d2d5d3e7557b86dc9d6bd143c&ipo=images' alt='cryptohack' width="75px;" height="75px;" style="max-width:100%"><br><b>CryptoHack</b></a></td>
 </tr>
 </table>
 
