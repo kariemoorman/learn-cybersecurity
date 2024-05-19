@@ -58,8 +58,19 @@
 ### Concepts
 
 <table>
+    <tr>
+    <td align='center' width='20%'><img src='https://cdn1.iconfinder.com/data/icons/cyber-security-network-protection-4/512/Security_crypto_-1024.png' alt='netsec' width="75px;" height="75px;" style="max-width:100%"><br><b>Network Security</b></td>
+    <td align='center'>
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec' target="_blank">Network Architecture</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec' target="_blank">Network Types</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec' target="_blank">Network Protocols</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec' target="_blank">Network Typology</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec' target="_blank">OSI vs. TCP/IP Models</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec' target="_blank">Subnetting</a>
+    </td>
+  </tr>
   <tr>
-    <td align='center'><img src='https://www.checkpoint.com/wp-content/uploads/what-is-appsec-1.jpg' alt='appsec' width="75px;" height="75px;" style="max-width:100%"><br><b>AppSec</b></td>
+    <td align='center'><img src='https://www.checkpoint.com/wp-content/uploads/what-is-appsec-1.jpg' alt='appsec' width="75px;" height="75px;" style="max-width:100%"><br><b>Application Security</b></td>
     <td align='center'><a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec' target="_blank">API Security</a></td>
   </tr>
 </table>
