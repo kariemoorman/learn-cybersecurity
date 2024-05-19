@@ -1,6 +1,6 @@
 # learn-cybersecurity
 
-<p align='center'><img src="https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/images/networks.png?raw=true" alt="network" style="height:500px; width:800px;"/></p>
+<p align='center'><img src="https://github.com/kariemoorman/cybersecurity-toolkit/blob/main/images/networks.png?raw=true" alt="network" style="height:500px; width:700px;"/></p>
 
 <p align='center'><i>Image generated using <a href='https://huggingface.co/spaces/prodia/sdxl-stable-diffusion-xl' target="_blank">SDXL Stable Diffusion XL Model by Prodia Labs via HuggingFace</a></i>.</p>
 
