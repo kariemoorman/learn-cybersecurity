@@ -62,8 +62,8 @@ Network topology describes how the nodes and links in a network are arranged. A 
   <th width='50%;'>TCP</th>
   <th>UDP</th>
     <tr>
-    <td align='center'><img src='https://github.com/kariemoorman/learn-networking/blob/main/images/tcp_provider.png' alt='tcp' /></td>
-    <td align='center'><img src='https://github.com/kariemoorman/learn-networking/blob/main/images/udp_provider.png' alt='udp' /></td>
+    <td align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/tcp_provider.png' alt='tcp' /></td>
+    <td align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/udp_provider.png' alt='udp' /></td>
   </tr>
   <tr>
     <td valign="top">Reliable Delivery</td>
