@@ -15,7 +15,7 @@
 
 <h3 align='center'>OSI vs. TCP/IP Models</h3>
 
-<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/osi_v_tcpip.png' width="400" height="500"></p>
+<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/osi_v_tcpip.png' height="500"></p>
 
 
 --- 
