@@ -1,13 +1,14 @@
-## AppSec: Application Security
+# Application Security
 
-### Table of Contents
-- [API Security](#api-security)
+## Table of Contents
+- <b>[API Security](#api-security)</b>
+- <b>[LLM Security](#llm-security)</b>
 
+---
+<details>
+  <summary> <h2>API Security</h2> </summary>
 
-----
-## API Security
-
-### Table of Contents
+### Key Concepts
 - [3 Pillars of API Security](#3-pillars-of-api-security)
 - [Securing API Servers](#securing-api-servers)
 - [PCI-DSS Compliance](#pci-dss-compliance)
@@ -449,3 +450,15 @@
 </table>
 
 </details>
+
+</details>
+
+---
+
+<details>
+  <summary> <h2>LLM Security</h2> </summary>
+
+
+</details>
+
+---
