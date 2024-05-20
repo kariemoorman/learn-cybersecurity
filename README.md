@@ -61,12 +61,12 @@
     <tr>
     <td align='center' width='20%'><img src='https://cdn1.iconfinder.com/data/icons/cyber-security-network-protection-4/512/Security_crypto_-1024.png' alt='netsec' width="75px;" height="75px;" style="max-width:100%"><br><b>Network Security</b></td>
     <td align='center'>
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec#network-architecture' target="_blank">Network Architecture</a>, 
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec#network-types' target="_blank">Network Types</a>, 
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec#network-protocols' target="_blank">Network Protocols</a>, 
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec#network-typology' target="_blank">Network Typology</a>, 
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec#osi-model' target="_blank">OSI vs. TCP/IP Models</a>, 
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec#subnetting' target="_blank">Subnetting</a>
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec/readme.md#network-architecture' target="_blank">Network Architecture</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec/readme.md#network-types' target="_blank">Network Types</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec/readme.md#network-protocols' target="_blank">Network Protocols</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec/readme.md#network-typology' target="_blank">Network Typology</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec/readme.md#osi-model' target="_blank">OSI vs. TCP/IP Models</a>, 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/netsec/readme.md#subnetting' target="_blank">Subnetting</a>
     </td>
   </tr>
   <tr>
