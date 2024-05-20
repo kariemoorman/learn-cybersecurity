@@ -515,9 +515,22 @@
     <td valign='top'>LLM03</td>
     <td valign='top'>Training Data Poisoning</td>
     <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>- Impacts the model’s ability to output correct predictions, and can result in model collapse.</td>
+    <td valign='top'>
+      - A malicious actor, or a competitor brand intentionally creates inaccurate or malicious documents which are targeted at a model’s pre-training, fine-tuning data or embeddings (e.g., Split-View Data Poisoning Attacks, Frontrunning Poisoning Attacks).
+      <br> - A malicious actor performs direct injection of falsified, biased or harmful content into the training processes of a model which is returned in subsequent outputs.
+      <br> - An unsuspecting user is indirectly injecting sensitive or proprietary data into the training processes of a model which is returned in subsequent outputs.
+      <br> - A model is trained using data which has not been verified by its source, origin or content in any of the training stage examples which can lead to erroneous results if the data is tainted or incorrect.
+    </td>
+    <td valign='top'>
+      - Verify the supply chain of the training data, especially when sourced externally as well as maintaining attestations via the “ML-BOM” (Machine Learning Bill of Materials) methodology as well as verifying model cards.
+      <br> - Verify the correct legitimacy of targeted data sources and data contained obtained during both the pre-training, fine-tuning and embedding stages.
+      <br> - Verify your use-case for the LLM and the application it will integrate to. Craft different models via separate training data or fine-tuning for different use-cases to create a more granular and accurate generative AI output as per it’s defined use-case.
+      <br> - Ensure sufficient sandboxing through network controls are present to prevent the model from scraping unintended data sources which could hinder the machine learning output.
+      <br> - Use strict vetting or input filters for specific training data or categories of data sources to control volume of falsified data. Data sanitization, with techniques such as statistical outlier detection and anomaly detection methods to detect and remove adversarial data from potentially being fed into the fine-tuning process.
+      <br> - Adversarial robustness techniques such as federated learning and constraints to minimize the effect of outliers or adversarial training to be vigorous against worst-case perturbations of the training data.
+      <br> - Testing and Detection, by measuring the loss during the training stage and analyzing trained models to detect signs of a poisoning attack by analyzing model behavior on specific test inputs.
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM04</td>
