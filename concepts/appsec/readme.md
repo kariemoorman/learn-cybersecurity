@@ -600,10 +600,22 @@
   <tr>
     <td valign='top'>LLM07</td>
     <td valign='top'>Insecure Plugin Design</td>
+    <td valign='top'>LLM plugins are extensions that, when enabled, are called automatically by the model during user interactions. They are driven by the model, and there is no application control over the execution. Furthermore, to deal with context-size limitations, plugins are likely to implement free-text inputs from the model with no validation or type checking. This allows a potential attacker to construct a malicious request to the plugin, which could result in a wide range of undesired behaviors, up to and including remote code execution.</td>
     <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>
+      - A plugin accepts all parameters in a single text field instead of distinct input parameters.
+      <br> - A plugin accepts configuration strings, instead of parameters, that can override entire configuration settings.
+      <br> - A plugin accepts raw SQL or programming statements instead of parameters.
+      <br> - Authentication is performed without explicit authorization to a particular plugin.
+      <br> - A plugin treats all LLM content as being created entirely by the user and performs any requested actions without requiring additional authorization.
+    </td>
+    <td valign='top'>
+      - Enforce strict parameterized input wherever possible and include type and range checks on inputs. When this is not possible, a second layer of typed calls should be introduced, parsing requests and applying validation and sanitization. 
+      <br> - Ensure effective input validation and sanitization by applying OWASP’s recommendations in ASVS.
+      <br> - Plugins should be designed to minimize the impact of any insecure input parameter exploitation, including least-privilege access control and exposing as little functionality as possible while still performing its desired function.
+      <br> - Use appropriate authentication identities, such as OAuth2, to apply effective authorization and access control. Additionally, API Keys should be used to provide context for custom authorization decisions which reflect the plugin route rather than the default interactive user.
+      <br> - Require manual user authorization and confirmation of any action taken by sensitive plugins.
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM08</td>
