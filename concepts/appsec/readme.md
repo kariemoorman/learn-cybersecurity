@@ -558,10 +558,28 @@
   <tr>
     <td valign='top'>LLM05</td>
     <td valign='top'>Supply Chain Vulnerabilities</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>Supply Chain Vulnerabilities in LLMs refer to potential weaknesses or threats that can arise from the complex network of entities involved in the development, deployment, and maintenance of Large Language Models (LLMs).</td>
+    <td valign='top'>
+      - Model bias, security breaches (e.g., Data Exfiltration), and complete system failures.</td>
+    <td valign='top'>
+     - Traditional third-party package vulnerabilities, including outdated or deprecated components.
+     <br> - Using a vulnerable pre-trained model for fine-tuning.
+     <br> - Use of poisoned crowd-sourced data for training.
+     <br> - Using outdated or deprecated models that are no longer maintained leads to security issues.
+     <br> - Unclear T&Cs and data privacy policies of the model operators lead to the application’s sensitive data being used for model training and subsequent sensitive information exposure. This may also apply to risks from using copyrighted material by the model supplier.
+     </td>
+    <td valign='top'>
+      - Vet data sources and suppliers carefully, including T&Cs and their privacy policies, only using trusted suppliers. Ensure adequate and independently-audited security is in place and that model operator policies align with your data protection policies, i.e., your data is not used for training their models; similarly, seek assurances and legal mitigations against using copyrighted material from model maintainers.
+      <br> - Only use reputable plug-ins and ensure they have been tested for your application requirements.
+      <br> - Implement vulnerability scanning, management, and patching components. 
+      <br> - Maintain an up-to-date inventory of components using a Software Bill of Materials (SBOM) to ensure you have an up-to-date, accurate, and signed inventory preventing tampering with deployed packages. SBOMs can be used to detect and alert for new, zero-day vulnerabilities quickly.
+      <br> - Use MLOps best practices and platforms offering secure model repositories with data, model, and experiment tracking.
+      <br> - Use model and code signing when using external models and suppliers.
+      <br> - Anomaly detection and adversarial robustness tests on supplied models and data.
+      <br> - Implement sufficient monitoring to cover component and environment vulnerabilities scanning, use of unauthorized plugins, and out-of-date components, including the model and its artifacts.
+      <br> - Implement a patching policy to mitigate vulnerable or outdated components. Ensure that the application relies on a maintained version of APIs and the underlying model.
+      <br> - Regularly review and audit supplier Security and Access.
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM06</td>
