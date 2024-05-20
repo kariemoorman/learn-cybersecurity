@@ -647,18 +647,45 @@
   <tr>
     <td valign='top'>LLM09</td>
     <td valign='top'>Overreliance</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>Overreliance can occur when an LLM produces erroneous information and provides it in an authoritative manner. </td>
+    <td valign='top'>- Hallucinations (i.e., production of content that is factually incorrect, inappropriate or unsafe), introduction of unnoticed security vulnerabilities.</td>
+    <td valign='top'>
+      - LLM provides inaccurate information as a response while stating it in a fashion implying it is highly authoritative. The overall system is designed without proper checks and balances to handle this and the information misleads the user in a way that leads to harm.
+      - LLM suggests insecure or faulty code, leading to vulnerabilities when incorporated into a software system without proper oversight or verification.
+    </td>
+    <td valign='top'>
+      - Regularly monitor and review the LLM outputs. Use self-consistency or voting techniques to filter out inconsistent text. 
+      <br> - Cross-check the LLM output with trusted external sources. 
+      <br> - Enhance the model with fine-tuning or embeddings to improve output quality.
+      <br> - Implement automatic validation mechanisms that can cross-verify the generated output against known facts or data. 
+      <br> - Break down complex tasks into manageable subtasks and assign them to different agents. 
+      <br> - Communicate the risks and limitations associated with using LLMs. 
+      <br> - Build APIs and user interfaces that encourage responsible and safe use of LLMs.
+      <br> - Establish secure coding practices and guidelines to prevent the integration of possible vulnerabilities.
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM10</td>
     <td valign='top'>Model Theft</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>Model Theft refers to the unauthorized access and exfiltration of LLM models by malicious actors or APTs. This arises when the proprietary LLM models (being valuable intellectual property), are compromised, physically stolen, copied or weights and parameters are extracted to create a functional equivalent.</td>
+    <td valign='top'>- Economic and brand reputation loss, erosion of competitive advantage, unauthorized usage of the model or unauthorized access to sensitive information contained within the model.</td>
+    <td valign='top'>
+      - An attacker exploits a vulnerability in a company’s infrastructure to gain unauthorized access to their LLM model repository via misconfiguration in their network or application security settings.
+      <br> - An insider threat scenario where a disgruntled employee leaks model or related artifacts.
+      <br> - An attacker queries the model API using carefully crafted inputs and prompt injection techniques to collect a sufficient number of outputs to create a shadow model.
+      <br> - A malicious attacker is able to bypass input filtering techniques of the LLM to perform a side-channel attack and ultimately harvest model weights and architecture information to a remote controlled resource.
+    </td>
+    <td valign='top'>
+      - Implement strong access controls (e.g., RBAC and rule of least privilege) and strong authentication mechanisms to limit unauthorized access to LLM model repositories and training environments.
+      <br> - Use a centralized ML Model Inventory or Registry for ML models used in production. Having a centralized model registry prevents unauthorized access to ML Models via access controls, authentication, and monitoring/logging capability which are good foundations for governance. 
+      <br> - Restrict the LLMs access to network resources, internal services, and APIs.
+      <br> - Regularly monitor and audit access logs and activities related to LLM model repositories to detect and respond to any suspicious or unauthorized behavior promptly.
+      <br> - Automate MLOps deployment with governance and tracking and approval workflows to tighten access and deployment controls within the infrastructure.
+      <br> - Implement controls and mitigation strategies to mitigate and/or reduce risk of prompt injection techniques causing side-channel attacks.
+      <br> - Rate Limiting of API calls where applicable and/or filters to reduce risk of data exfiltration from the LLMs applications, or implement techniques to detect (e.g., DLP) extraction activity from other monitoring systems.
+      <br> - Implement adversarial robustness training to help detect extraction queries and tighten physical security measures.
+      <br> - Implement a watermarking framework into the embedding and detection stages of an LLMs lifecycle.
+    </td>
   </tr>
 </table>
 
