@@ -458,6 +458,104 @@
 <details>
   <summary> <h2>LLM Security</h2> </summary>
 
+### Key Concepts
+
+- [OWASP LLM Top 10](#owasp-llm-top-10)
+
+<br>
+
+### [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/)
+
+<table>
+  <tr>
+    <th>Number</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Risk Exposure</th>
+    <th>Example</th>
+    <th>Prevention</th>
+  </tr>
+  <tr>
+    <td>LLM01</td>
+    <td>Prompt Injection</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM02</td>
+    <td>Insecure Output Handling</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM03</td>
+    <td>Training Data Poisoning</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM04</td>
+    <td>Model Denial of Service</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM05</td>
+    <td>Supply Chain Vulnerabilities</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM06</td>
+    <td>Sensitive Information Disclosure</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM07</td>
+    <td>Insecure Plugin Design</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM08</td>
+    <td>Excessive Agency</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM09</td>
+    <td>Overreliance</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>LLM10</td>
+    <td>Model Theft</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 </details>
 
