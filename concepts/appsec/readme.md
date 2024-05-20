@@ -476,84 +476,84 @@
     <th>Prevention</th>
   </tr>
   <tr>
-    <td>LLM01</td>
-    <td>Prompt Injection</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM01</td>
+    <td valign='top'>Prompt Injection</td>
+    <td valign='top'>Prompt Injection Vulnerability occurs when an attacker manipulates a large language model (LLM) through crafted inputs, causing the LLM to unknowingly execute the attacker’s intentions. This can be done directly by “jailbreaking” the system prompt or indirectly through manipulated external inputs, potentially leading to data exfiltration, social engineering, and other issues. <br> - Direct Prompt Injections, also known as “jailbreaking”, occur when a malicious user overwrites or reveals the underlying system prompt. This may allow attackers to exploit backend systems by interacting with insecure functions and data stores accessible through the LLM. <br> - Indirect Prompt Injections occur when an LLM accepts input from external sources that can be controlled by an attacker, such as websites or files. The attacker may embed a prompt injection in the external content hijacking the conversation context. This would cause LLM output steering to become less stable, allowing the attacker to either manipulate the user or additional systems that the LLM can access. Additionally, indirect prompt injections do not need to be human-visible/readable, as long as the text is parsed by the LLM.</td>
+    <td valign='top'>- Bypassing LLM safeguards. <br> - Leaking sensitive information, unauthorized plugin use, social engineering. <br>- Influencing critical decision-making processes under the guise of normal operation.</td>
+    <td valign='top'>- A malicious user crafts a direct prompt injection to the LLM, which instructs it to ignore the application creator’s system prompts and instead execute a prompt that returns private, dangerous, or otherwise undesirable information. <br>- A user employs an LLM to summarize a webpage containing an indirect prompt injection. This then causes the LLM to solicit sensitive information from the user and perform exfiltration via JavaScript or Markdown. <br> - A user enables a plugin linked to an e-commerce site. A rogue instruction embedded on a visited website exploits this plugin, leading to unauthorized purchases. <br> - A rogue instruction and content embedded on a visited website exploits other plugins to scam users. <br> - A malicious user uploads a resume containing an indirect prompt injection. The document contains a prompt injection with instructions to make the LLM inform users that this document is excellent eg. an excellent candidate for a job role. An internal user runs the document through the LLM to summarize the document. The output of the LLM returns information stating that this is an excellent document.</td>
+    <td valign='top'>- Enforce privilege control on LLM access to backend systems (least privilege). Provide the LLM with its own API tokens for extensible functionality, such as plugins, data access, and function-level permissions. <br> - Add a human in the loop for extended functionality (e.g., performing privileged operations, such as sending or deleting emails). This reduces the opportunity for indirect prompt injections that can lead to unauthorized actions on behalf of a user without their knowledge or consent. <br> - Segregate external content from user prompts. Denote where untrusted content is being used to limit their influence on user prompts. <br> - Establish (zero) trust boundaries between the LLM, external sources, and extensible functionality (e.g., plugins or downstream functions). Treat the LLM as an untrusted user and maintain final user control on decision-making processes. Highlight potentially untrustworthy responses visually to the user. <br> - Manually monitor LLM input and output to check that it is as expected. This aids in detecting and addressing weaknesses.</td>
   </tr>
   <tr>
-    <td>LLM02</td>
-    <td>Insecure Output Handling</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM02</td>
+    <td valign='top'>Insecure Output Handling</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM03</td>
-    <td>Training Data Poisoning</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM03</td>
+    <td valign='top'>Training Data Poisoning</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM04</td>
-    <td>Model Denial of Service</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM04</td>
+    <td valign='top'>Model Denial of Service</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM05</td>
-    <td>Supply Chain Vulnerabilities</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM05</td>
+    <td valign='top'>Supply Chain Vulnerabilities</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM06</td>
-    <td>Sensitive Information Disclosure</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM06</td>
+    <td valign='top'>Sensitive Information Disclosure</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM07</td>
-    <td>Insecure Plugin Design</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM07</td>
+    <td valign='top'>Insecure Plugin Design</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM08</td>
-    <td>Excessive Agency</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM08</td>
+    <td valign='top'>Excessive Agency</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM09</td>
-    <td>Overreliance</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM09</td>
+    <td valign='top'>Overreliance</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
   <tr>
-    <td>LLM10</td>
-    <td>Model Theft</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td valign='top'>LLM10</td>
+    <td valign='top'>Model Theft</td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
+    <td valign='top'></td>
   </tr>
 </table>
 
