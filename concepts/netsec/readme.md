@@ -108,13 +108,17 @@ Network topology describes how the nodes and links in a network are arranged. A 
 
 ### Subnetting
 
-Subnetting is the process of taking a large block of IP addresses and turning it into a bunch of smaller blocks of IP addresses. 
+Subnetting is the process of taking a large block of IP addresses and turning it into a bunch of smaller blocks of IP addresses (see [IP-Subnet-Calculator](https://github.com/kariemoorman/ip-subnet-calculator)). 
 
-How Subnetting Works: 
+<b>How Subnetting Works:</b> 
 
-- 
+- IP Addressing: In computer networks, devices are identified using IP addresses. IPv4 addresses, for instance, consist of 32 bits, often represented as four octets separated by periods (e.g., 192.168.1.1).
 
-Benefits of Subnetting: 
+- Subnet Mask: A subnet mask is a 32-bit number used to distinguish the network portion of an IP address from the host portion. It consists of a series of ones followed by a series of zeros. For example, the subnet mask 255.255.255.0 means that the first 24 bits (or the first three octets) are dedicated to identifying the network, leaving the last octet for addressing hosts within that network.
+
+- Dividing Networks: By customizing the subnet mask, you can divide a network into smaller segments. For instance, if you have a network with the IP range 192.168.1.0 - 192.168.1.255 and you use a subnet mask of 255.255.255.0, you effectively have one subnet with 254 available host addresses (the first and last addresses are reserved for network address and broadcast address, respectively). However, if you subnet further, say into two subnets, each would have half the number of available host addresses.
+
+<b>Benefits of Subnetting:</b> 
 
 - Smaller networks are more efficient. The less addresses there are, the less devices there will be on the network. The less devices there are, the less broadcasts that can happen.
 
