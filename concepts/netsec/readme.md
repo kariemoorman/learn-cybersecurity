@@ -18,8 +18,8 @@ Computer network architecture defines the physical and logical framework of a co
 
 | Type | Description | 
 |-----|----|
-| Peer-to-Peer (P2P) | In P2P architecture, two or more computers are connected as “peers,” meaning they have equal power and privileges on the network. A P2P network does not require a central server for coordination. Instead, each computer on the network acts as both a client (a computer that needs to access a service) and a server (a computer that serves the needs of the client accessing a service). Each peer makes some of its resources available to the network, sharing storage, memory, bandwidth, and processing power. |
-| Client/Server (Tiered Model) |  In a client/server network, a central server or group of servers manage resources and deliver services to client devices in the network. The clients in the network communicate with other clients through the server. Unlike the P2P model, clients in a client/server architecture don’t share their resources. This architecture type is sometimes called a tiered model because it's designed with multiple levels or tiers. |
+| <p align='center'><img src='https://cdn3.iconfinder.com/data/icons/cryptocurrency-188/32/Cryptocurrency_interact_peer-to-peer_p2p_persons-512.png' alt='p2p' width="75px;" height="75px;" style="max-width:100%"><br> Peer-to-Peer (P2P)</p> | In P2P architecture, two or more computers are connected as “peers,” meaning they have equal power and privileges on the network. A P2P network does not require a central server for coordination. Instead, each computer on the network acts as both a client (a computer that needs to access a service) and a server (a computer that serves the needs of the client accessing a service). Each peer makes some of its resources available to the network, sharing storage, memory, bandwidth, and processing power. |
+| <p align='center'><img src='https://cdn.iconscout.com/icon/premium/png-256-thumb/client-server-32-1058806.png' alt='client-server' width="75px;" height="75px;" style="max-width:100%"><br> Client/Server (Tiered Model)</p> |  In a client/server network, a central server or group of servers manage resources and deliver services to client devices in the network. The clients in the network communicate with other clients through the server. Unlike the P2P model, clients in a client/server architecture don’t share their resources. This architecture type is sometimes called a tiered model because it's designed with multiple levels or tiers. |
 
 --- 
 
@@ -96,13 +96,12 @@ Network topology describes how the nodes and links in a network are arranged. A 
 
 ### OSI Model
 
+<h3 align='center'>OSI vs. TCP/IP Models</h3>
+<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/osi_v_tcp-ip.png' height="500"></p>
+
+
 <h3 align='center'>OSI Model & Attack Vectors</h3>
 <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/osi_v_attacks.png' height="500"> </p>
-
-
-<h3 align='center'>OSI vs. TCP/IP Models</h3>
-
-<p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/osi_v_tcpip.png' height="500"></p>
 
 
 ---
@@ -110,6 +109,10 @@ Network topology describes how the nodes and links in a network are arranged. A 
 ### Subnetting
 
 Subnetting is the process of taking a large block of IP addresses and turning it into a bunch of smaller blocks of IP addresses. 
+
+How Subnetting Works: 
+
+- 
 
 Benefits of Subnetting: 
 
