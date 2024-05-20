@@ -478,18 +478,38 @@
   <tr>
     <td valign='top'>LLM01</td>
     <td valign='top'>Prompt Injection</td>
-    <td valign='top'>Prompt Injection Vulnerability occurs when an attacker manipulates a large language model (LLM) through crafted inputs, causing the LLM to unknowingly execute the attacker’s intentions. This can be done directly by “jailbreaking” the system prompt or indirectly through manipulated external inputs, potentially leading to data exfiltration, social engineering, and other issues. <br> - Direct Prompt Injections, also known as “jailbreaking”, occur when a malicious user overwrites or reveals the underlying system prompt. This may allow attackers to exploit backend systems by interacting with insecure functions and data stores accessible through the LLM. <br> - Indirect Prompt Injections occur when an LLM accepts input from external sources that can be controlled by an attacker, such as websites or files. The attacker may embed a prompt injection in the external content hijacking the conversation context. This would cause LLM output steering to become less stable, allowing the attacker to either manipulate the user or additional systems that the LLM can access. Additionally, indirect prompt injections do not need to be human-visible/readable, as long as the text is parsed by the LLM.</td>
+    <td valign='top'>Prompt Injection Vulnerability occurs when an attacker manipulates a large language model (LLM) through crafted inputs, causing the LLM to unknowingly execute the attacker’s intentions. This can be done directly by “jailbreaking” the system prompt or indirectly through manipulated external inputs, potentially leading to data exfiltration, social engineering, and other issues. 
+      <br> - Direct Prompt Injections, also known as “jailbreaking”, occur when a malicious user overwrites or reveals the underlying system prompt. This may allow attackers to exploit backend systems by interacting with insecure functions and data stores accessible through the LLM. 
+      <br> - Indirect Prompt Injections occur when an LLM accepts input from external sources that can be controlled by an attacker, such as websites or files. The attacker may embed a prompt injection in the external content hijacking the conversation context. This would cause LLM output steering to become less stable, allowing the attacker to either manipulate the user or additional systems that the LLM can access. Additionally, indirect prompt injections do not need to be human-visible/readable, as long as the text is parsed by the LLM.</td>
     <td valign='top'>- Bypassing LLM safeguards. <br> - Leaking sensitive information, unauthorized plugin use, social engineering. <br>- Influencing critical decision-making processes under the guise of normal operation.</td>
-    <td valign='top'>- A malicious user crafts a direct prompt injection to the LLM, which instructs it to ignore the application creator’s system prompts and instead execute a prompt that returns private, dangerous, or otherwise undesirable information. <br>- A user employs an LLM to summarize a webpage containing an indirect prompt injection. This then causes the LLM to solicit sensitive information from the user and perform exfiltration via JavaScript or Markdown. <br> - A user enables a plugin linked to an e-commerce site. A rogue instruction embedded on a visited website exploits this plugin, leading to unauthorized purchases. <br> - A rogue instruction and content embedded on a visited website exploits other plugins to scam users. <br> - A malicious user uploads a resume containing an indirect prompt injection. The document contains a prompt injection with instructions to make the LLM inform users that this document is excellent eg. an excellent candidate for a job role. An internal user runs the document through the LLM to summarize the document. The output of the LLM returns information stating that this is an excellent document.</td>
-    <td valign='top'>- Enforce privilege control on LLM access to backend systems (least privilege). Provide the LLM with its own API tokens for extensible functionality, such as plugins, data access, and function-level permissions. <br> - Add a human in the loop for extended functionality (e.g., performing privileged operations, such as sending or deleting emails). This reduces the opportunity for indirect prompt injections that can lead to unauthorized actions on behalf of a user without their knowledge or consent. <br> - Segregate external content from user prompts. Denote where untrusted content is being used to limit their influence on user prompts. <br> - Establish (zero) trust boundaries between the LLM, external sources, and extensible functionality (e.g., plugins or downstream functions). Treat the LLM as an untrusted user and maintain final user control on decision-making processes. Highlight potentially untrustworthy responses visually to the user. <br> - Manually monitor LLM input and output to check that it is as expected. This aids in detecting and addressing weaknesses.</td>
+    <td valign='top'>
+      - A malicious user crafts a direct prompt injection to the LLM, which instructs it to ignore the application creator’s system prompts and instead execute a prompt that returns private, dangerous, or otherwise undesirable information. 
+      <br>- A user employs an LLM to summarize a webpage containing an indirect prompt injection. This then causes the LLM to solicit sensitive information from the user and perform exfiltration via JavaScript or Markdown. 
+      <br> - A user enables a plugin linked to an e-commerce site. A rogue instruction embedded on a visited website exploits this plugin, leading to unauthorized purchases. 
+      <br> - A rogue instruction and content embedded on a visited website exploits other plugins to scam users. 
+      <br> - A malicious user uploads a resume containing an indirect prompt injection. The document contains a prompt injection with instructions to make the LLM inform users that this document is excellent eg. an excellent candidate for a job role. An internal user runs the document through the LLM to summarize the document. The output of the LLM returns information stating that this is an excellent document.</td>
+    <td valign='top'>
+      - Enforce privilege control on LLM access to backend systems (least privilege). Provide the LLM with its own API tokens for extensible functionality, such as plugins, data access, and function-level permissions. 
+      <br> - Add a human in the loop for extended functionality (e.g., performing privileged operations, such as sending or deleting emails). This reduces the opportunity for indirect prompt injections that can lead to unauthorized actions on behalf of a user without their knowledge or consent. 
+      <br> - Segregate external content from user prompts. Denote where untrusted content is being used to limit their influence on user prompts. 
+      <br> - Establish (zero) trust boundaries between the LLM, external sources, and extensible functionality (e.g., plugins or downstream functions). Treat the LLM as an untrusted user and maintain final user control on decision-making processes. Highlight potentially untrustworthy responses visually to the user. 
+      <br> - Manually monitor LLM input and output to check that it is as expected. This aids in detecting and addressing weaknesses.</td>
   </tr>
   <tr>
     <td valign='top'>LLM02</td>
     <td valign='top'>Insecure Output Handling</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>Insecure Output Handling refers to insufficient validation, sanitization, and handling of the outputs generated by large language models before they are passed downstream to other components and systems. Since LLM-generated content can be controlled by prompt input, this behavior is similar to providing users indirect access to additional functionality.</td>
+    <td valign='top'>
+      - XSS, CSRF, SSRF, Privilege Escalation, RCE
+    </td>
+    <td valign='top'>
+      - LLM output is entered directly into a system shell or similar function such as exec or eval, resulting in remote code execution.
+      <br> - JavaScript or Markdown is generated by the LLM and returned to a user. The code is then interpreted by the browser, resulting in XSS.
+    </td>
+    <td valign='top'>
+      - Treat the model as any other user, adopting a zero-trust approach, and apply proper input validation on responses coming from the model to backend functions. 
+      <br> - Follow the OWASP ASVS (Application Security Verification Standard) guidelines to ensure effective input validation and sanitization. 
+      <br> - Encode model output back to users to mitigate undesired code execution by JavaScript or Markdown. </td>
   </tr>
   <tr>
     <td valign='top'>LLM03</td>
@@ -558,5 +578,7 @@
 </table>
 
 </details>
+
+<br>
 
 ---
