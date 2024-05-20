@@ -43,13 +43,13 @@ Network topology describes how the nodes and links in a network are arranged. A 
 
 | Type | Description | Advantages | Disadvantages |
 |-----|----|----|----|
-|Ring | Nodes are connected in a loop, so each device has exactly two neighbors. Adjacent pairs are connected directly; non-adjacent pairs are connected indirectly through multiple nodes. | | |
-|Star | All nodes are connected to a single, central hub and each node is indirectly connected through that hub. | | |
-|Partial Mesh | Overlapping connections between nodes, such that only some nodes are connected to each other and some are connected to the nodes with which they exchange the most data. | - cost-effective, simpler to execute | - less redundancy |
-|Full Mesh | Overlapping connections between nodes, such that every node in the network is connected to every other node. Often reserved for networks that require high redundancy. | - high redundancy, highest level of fault tolerance | - expensive, time consuming to execute |
-|Bus | Every network node is directly connected to a main cable. | | |
-|Tree | | | |
-|Point-to-Point | | | |
+|Ring | Nodes are connected in a loop, so each device has exactly two neighbors. Adjacent pairs are connected directly; non-adjacent pairs are connected indirectly through multiple nodes. | - Simple to implement <br> - Equal traffic distribution <br> - No central point of failure | - If one node or link fails, the entire network can be affected <br> - Limited scalability |
+|Star | All nodes are connected to a single, central hub and each node is indirectly connected through that hub. | - Centralized control <br> - Easy to add or remove devices <br> - Fault isolation | - Dependency on central hub <br> - Failure of central hub disrupts entire network <br> - Limited scalability |
+|Partial Mesh | Overlapping connections between nodes, such that only some nodes are connected to each other and some are connected to the nodes with which they exchange the most data. | - Cost-effective <br> - Simpler to execute | - Less redundancy |
+|Full Mesh | Overlapping connections between nodes, such that every node in the network is connected to every other node. Often reserved for networks that require high redundancy. | - High redundancy, highest level of fault tolerance | - Expensive <br> - Time consuming to execute |
+|Bus | Every network node is directly connected to a main cable. | - Simple to implement <br> - Cost-effective for small networks <br> - Easy to expand | - Single point of failure (the main cable) <br> - Limited scalability <br> - Performance degradation with additional nodes |
+|Tree | Nodes are arranged hierarchically, with a root node at the top and branches extending downward. | - Scalable <br> - Hierarchical structure simplifies network management | - Dependency on root node <br> - Limited fault tolerance <br> - Adding or removing nodes can disrupt entire branches |
+|Point-to-Point | Direct connection between two nodes, often used in telecommunications and networking. | - Simplest topology <br> - Low latency <br> - Secure communication | - Limited scalability <br> - Each connection requires dedicated resources <br> - Difficult to manage in large networks |
   
 
 ----
