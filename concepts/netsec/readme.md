@@ -65,7 +65,6 @@
   </tr>
 </table>
 
----
 
 --- 
 
@@ -83,3 +82,13 @@
 ---
 
 ### Subnetting
+
+Subnetting is the process of taking a large block of IP addresses and turning it into a bunch of smaller blocks of IP addresses. 
+
+Benefits of Subnetting: 
+
+- Smaller networks are more efficient. The less addresses there are, the less devices there will be on the network. The less devices there are, the less broadcasts that can happen.
+
+- Smaller networks allow for segmentation of a specific set of devices to that network. This makes managing the network and network devices, e.g., firewalls, much easier.
+
+- Subnetting allows for more efficient use of IPv4 addresses. With subnetting it is possible to carve out space necessary for only a set of target devices, reducing IP address waste.
