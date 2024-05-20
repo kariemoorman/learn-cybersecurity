@@ -584,10 +584,18 @@
   <tr>
     <td valign='top'>LLM06</td>
     <td valign='top'>Sensitive Information Disclosure</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>LLM applications have the potential to reveal sensitive information, proprietary algorithms, or other confidential details through their output.</td>
+    <td valign='top'>- Unauthorized access to sensitive data, intellectual property, privacy violations, and other security breaches.</td>
+    <td valign='top'>
+      - Incomplete or improper filtering of sensitive information in the LLM responses.
+      <br> - Overfitting or memorization of sensitive data in the LLM training process.
+      <br> - Unintended disclosure of confidential information due to LLM misinterpretation, lack of data scrubbing methods or errors.
+    </td>
+    <td valign='top'>
+      - Integrate adequate data sanitization and scrubbing techniques to prevent user data from entering the training model data.
+      <br> - Implement robust input validation and sanitization methods to identify and filter out potential malicious inputs to prevent the model from being poisoned.
+      <br> - When fine-tunning, apply the rule of least privilege and do not train the model on information that the highest-privileged user can access which may be displayed to a lower-privileged user. Limit access to external data sources (orchestration of data at runtime). Apply strict access control methods to external data sources and a rigorous approach to maintaining a secure supply chain.     
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM07</td>
