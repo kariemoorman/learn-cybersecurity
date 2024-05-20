@@ -522,10 +522,25 @@
   <tr>
     <td valign='top'>LLM04</td>
     <td valign='top'>Model Denial of Service</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>Model Denial of Service occurs when an attacker interacts with an LLM in a method that consumes an exceptionally high amount of resources, which results in a decline in the quality of service for them and other users, as well as potentially incurring high resource costs. This includes scenarios in which an attacker interfers with or manipulates the context window of an LLM.</td>
+    <td valign='top'>- Increase in service latency and downtime (SLA interruption). </td>
+    <td valign='top'>
+      - Posing queries that lead to recurring resource usage through high-volume generation of tasks in a queue, e.g., with LangChain or AutoGPT.
+     <br> - Sending queries that are unusually resource-consuming, perhaps because they use unusual orthography or sequences.
+     <br> - Continuous input overflow: An attacker sends a stream of input to the LLM that exceeds its context window, causing the model to consume excessive computational resources.
+     <br> - Repetitive long inputs: The attacker repeatedly sends long inputs to the LLM, each exceeding the context window.
+     <br> - Recursive context expansion: The attacker constructs input that triggers recursive context expansion, forcing the LLM to repeatedly expand and process the context window.
+     <br> - Variable-length input flood: The attacker floods the LLM with a large volume of variable-length inputs, where each input is carefully crafted to just reach the limit of the context window. This technique aims to exploit any inefficiencies in processing variable-length inputs, straining the LLM and potentially causing it to become unresponsive.
+    </td>
+    <td valign='top'>
+      - Implement input validation and sanitization to ensure user input adheres to defined limits and filters out any malicious content.
+     <br> - Cap resource use per request or step, so that requests involving complex parts execute more slowly.
+     <br> - Enforce API rate limits to restrict the number of requests an individual user or IP address can make within a specific timeframe.
+     <br> - Limit the number of queued actions and the number of total actions in a system reacting to LLM responses.
+     <br> - Continuously monitor the resource utilization of the LLM to identify abnormal spikes or patterns that may indicate a DoS attack.
+     <br> - Set strict input limits based on the LLMs context window to prevent overload and resource exhaustion.
+     <br> - Promote awareness among developers about potential DoS vulnerabilities in LLMs and provide guidelines for secure LLM implementation.
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM05</td>
