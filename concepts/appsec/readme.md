@@ -514,8 +514,11 @@
   <tr>
     <td valign='top'>LLM03</td>
     <td valign='top'>Training Data Poisoning</td>
-    <td valign='top'></td>
-    <td valign='top'>- Impacts the model’s ability to output correct predictions, and can result in model collapse.</td>
+    <td valign='top'>Training data poisoning refers to manipulation of pre-training data or data involved within the fine-tuning or embedding processes to introduce vulnerabilities (which all have unique and sometimes shared attack vectors), backdoors or biases that could compromise the model’s security, effectiveness or ethical behavior.</td>
+    <td valign='top'>
+      - Impacts the model’s ability to output correct predictions, and can result in model collapse.
+      <br> - Poisoned information may be surfaced to users or create other risks like performance degradation, downstream software exploitation and reputational damage.
+    </td>
     <td valign='top'>
       - A malicious actor, or a competitor brand intentionally creates inaccurate or malicious documents which are targeted at a model’s pre-training, fine-tuning data or embeddings (e.g., Split-View Data Poisoning Attacks, Frontrunning Poisoning Attacks).
       <br> - A malicious actor performs direct injection of falsified, biased or harmful content into the training processes of a model which is returned in subsequent outputs.
@@ -601,7 +604,7 @@
     <td valign='top'>LLM07</td>
     <td valign='top'>Insecure Plugin Design</td>
     <td valign='top'>LLM plugins are extensions that, when enabled, are called automatically by the model during user interactions. They are driven by the model, and there is no application control over the execution. Furthermore, to deal with context-size limitations, plugins are likely to implement free-text inputs from the model with no validation or type checking. This allows a potential attacker to construct a malicious request to the plugin, which could result in a wide range of undesired behaviors, up to and including remote code execution.</td>
-    <td valign='top'></td>
+    <td valign='top'>- Data exfiltration, RCE, privilege escalation.</td>
     <td valign='top'>
       - A plugin accepts all parameters in a single text field instead of distinct input parameters.
       <br> - A plugin accepts configuration strings, instead of parameters, that can override entire configuration settings.
