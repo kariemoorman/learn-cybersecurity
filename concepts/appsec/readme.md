@@ -623,10 +623,26 @@
   <tr>
     <td valign='top'>LLM08</td>
     <td valign='top'>Excessive Agency</td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
-    <td valign='top'></td>
+    <td valign='top'>Excessive Agency is the vulnerability that enables damaging actions to be performed in response to unexpected/ambiguous outputs from an LLM (regardless of what is causing the LLM to malfunction; be it hallucination/confabulation, direct/indirect prompt injection, malicious plugin, poorly-engineered benign prompts, or just a poorly-performing model). The root cause of Excessive Agency is typically one or more of: excessive functionality, excessive permissions or excessive autonomy. This differs from Insecure Output Handling which is concerned with insufficient scrutiny of LLM outputs.</td>
+    <td valign='top'>- Broad range of impacts across the confidentiality, integrity and availability spectrum, depending on which systems an LLM-based app is able to interact with.</td>
+    <td valign='top'>
+      - An LLM agent has access to plugins which include functions that are not needed for the intended operation of the system. 
+      <br> - Not deprecating plug-ins no longer in use.
+      <br> -  An LLM plugin with open-ended functionality fails to properly filter the input instructions for commands outside what’s necessary for the intended operation of the application.
+      <br> - An LLM plugin has permissions on other systems that are not needed for the intended operation of the application.
+      <br> - An LLM-based application or plugin fails to independently verify and approve high-impact actions. 
+    </td>
+    <td valign='top'>
+      - Limit the plugins/tools that LLM agents are allowed to call to only the minimum functions necessary. 
+      <br> - Limit the functions that are implemented in LLM plugins/tools to the minimum necessary. 
+      <br> - Avoid open-ended functions where possible (e.g., run a shell command, fetch a URL, etc.) and use plugins/tools with more granular functionality. 
+      <br> - Limit the permissions that LLM plugins/tools are granted to other systems to the minimum necessary in order to limit the scope of undesirable actions. 
+      <br> - Track user authorization and security scope to ensure actions taken on behalf of a user are executed on downstream systems in the context of that specific user, and with the minimum privileges necessary. 
+      <br> - Utilize human-in-the-loop control to require a human to approve all actions before they are taken, implemented in a downstream system (outside the scope of the LLM application) or within the LLM plugin/tool itself. 
+      <br> - Implement authorization in downstream systems rather than relying on an LLM to decide if an action is allowed or not. When implementing tools/plugins enforce the complete mediation principle so that all requests made to downstream systems via the plugins/tools are validated against security policies.
+      <br> - Log and monitor the activity of LLM plugins/tools and downstream systems to identify where undesirable actions are taking place, and respond accordingly.
+      <br> - Implement rate-limiting to reduce the number of undesirable actions that can take place within a given time period, increasing the opportunity to discover undesirable actions through monitoring before significant damage can occur.
+    </td>
   </tr>
   <tr>
     <td valign='top'>LLM09</td>
