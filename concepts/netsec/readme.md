@@ -27,13 +27,13 @@ Computer network architecture defines the physical and logical framework of a co
 
 | Type | Description | Range |
 |-----|----|----|
-| WAN (wide area network) | AWAN connects computers over a wide area, such as from region to region or even continent to continent. The internet is the largest WAN, connecting billions of computers worldwide. You will typically see collective or distributed ownership models for WAN management. | |
-| MAN (metropolitan area network) | A MAN is typically larger than a LAN but smaller than a WAN. Cities and government entities typically own and manage MANs. | |
-| CAN (campus area network) | A CAN is larger than a LAN but smaller than a WAN. A CAN serves sites such as colleges, universities, and business campuses. | |
-| LAN (local area network) | A LAN connects computers over a relatively short distance, allowing them to share data, files, and resources (e.g., a LAN may connect all the computers in an office building, school, or hospital). Typically, LANs are privately owned and managed. | |
-| WLAN (wireless local area network) | WLAN is a LAN, with connections between devices on the network are made wirelessly. | |
-| PAN (personal area network) | A PAN serves one person (e.g., a PAN may connect a personal iPhone and a Macbook to share and sync content—text messages, emails, photos, and more—across both devices). | |
-| VPN (virtual private network) | A VPN is a secure, point-to-point connection between two network end points. A VPN establishes an encrypted channel that keeps a user’s identity and access credentials, as well as any data transferred. | |
+| WAN (wide area network) | AWAN connects computers over a wide area, such as from region to region or even continent to continent. The internet is the largest WAN, connecting billions of computers worldwide. You will typically see collective or distributed ownership models for WAN management. | Intercontinental or global, spanning thousands to tens of thousands of miles. Global scale, spanning across regions, countries, or continents. |
+| MAN (metropolitan area network) | A MAN is typically larger than a LAN but smaller than a WAN. Cities and government entities typically own and manage MANs. | Typically covers tens to hundreds of miles. Extends across a city or metropolitan area. |
+| CAN (campus area network) | A CAN is larger than a LAN but smaller than a WAN. A CAN serves sites such as colleges, universities, and business campuses. | Usually covers a few miles. Covers a campus or a group of buildings within a close proximity, such as a university campus or a business complex. |
+| LAN (local area network) | A LAN connects computers over a relatively short distance, allowing them to share data, files, and resources (e.g., a LAN may connect all the computers in an office building, school, or hospital). Typically, LANs are privately owned and managed. | Typically covers a few hundred meters to a few kilometers. Limited a relatively small geographical area, such as a single building, office floor, or home. |
+| WLAN (wireless local area network) | WLAN is a LAN, with connections between devices on the network are made wirelessly. | Similar to LAN, covering a few hundred meters to a few kilometers. Connections between devices are made wirelessly within a limited area, typically covering a building or a specific area within a building. |
+| PAN (personal area network) | A PAN serves one person (e.g., a PAN may connect a personal iPhone and a Macbook to share and sync content—text messages, emails, photos, and more—across both devices). | Very short range, usually within a few meters. Covers the immediate vicinity of an individual, such as a person's workspace or personal devices in close proximity. |
+| VPN (virtual private network) | A VPN is a secure, point-to-point connection between two network end points. A VPN establishes an encrypted channel that keeps a user’s identity and access credentials, as well as any data transferred. | Virtual, as it operates over existing networks (like the internet) but can provide secure connections over long distances, effectively extending the range of a private network. |
 
 --- 
 
