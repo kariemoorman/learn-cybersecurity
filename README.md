@@ -72,9 +72,14 @@
   <tr>
     <td align='center'><img src='https://www.checkpoint.com/wp-content/uploads/what-is-appsec-1.jpg' alt='appsec' width="75px;" height="75px;" style="max-width:100%"><br><b>Application Security</b></td>
     <td align='center'> 
-      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec/readme.md#ci-cd' target="_blank">CI/CD</a>,
       <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec/readme.md#api-security' target="_blank">API Security</a>,
       <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec/readme.md#llm-security' target="_blank">LLM Security</a>
+    </td>
+  </tr>
+  <tr>
+    <td align='center'><img src='https://www.britive.com/wp-content/uploads/2023/01/venndiagram2-darkbg-1.png' alt='devsec' width="100px;" height="75px;" style="max-width:100%"><br><b>DevSecOps</b></td>
+    <td align='center'> 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/devsec/readme.md#ci-cd' target="_blank">CI/CD</a>
     </td>
   </tr>
 </table>
