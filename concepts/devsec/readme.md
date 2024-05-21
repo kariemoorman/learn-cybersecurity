@@ -12,6 +12,14 @@
 <details>
   <summary> <h2>Threat Modeling</h2> </summary>
 
+<p>Threat modeling is a method of optimizing network security by identifying security objectives and requirements, pinpointing security threats and potential vulnerabilities, quantifying threat and vulnerability and criticality, and developing countermeasures to either prevent or mitigate the effects of cyber-attacks against the system. Data flow, sequence, and process diagrams are often used to create system representations, where contributors may highlight all areas of concern as well as mitigation strategies  (See <a href='https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html' target='_blank'>OWASP Threat Modeling CheatSheet</a>).</p>
+
+<p>Common threat modeling methodologies include VAST (Visual, Agile, and Simple Threat modeling), STRIDE (Structured Threat Risk and Impact Evaluation), DREAD (Damage, Reproducibility, Exploitability, Affected Users, Discoverability) and PASTA (Process for Attack Simulation and Threat Analysis).</p>
+
+<p>Threat modeling is typically carried out during the planning phase of a system (i.e., before the system is in production).</p>
+  
+
+
 <br>
 
 </details>
