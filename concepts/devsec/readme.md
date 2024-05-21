@@ -48,14 +48,67 @@
 <details>
   <summary> <h2>CI-CD</h2> </summary>
 
+<p align='center'><img src='https://javamaster.it/wp-content/uploads/2021/04/cicd.png' alt='cicd' width='80%' ></p>
+
 ### Key Concepts
-- [Continuous Testing](#continuous-testing)
-- [Monitoring & Logging](#monitoring--logging)
+- [Continuous Integration](#continuous-integration)
+- [Continuous Deployment](#continuous-deployment)
 
 <br> 
 
 <details>
-  <summary> <h3>Continuous Testing</h3> </summary>
+  <summary> <h3>Continuous Integration</h3> </summary>
+
+<p> Continuous Integration involves automating the process of integrating code changes from multiple developers into a shared repository frequently.</p>
+
+### Key Concepts 
+- [Infrastructure Development](#infrastructure-development)
+- [Code Development](#code-development)
+- [Continous Testing](#continuous-testing)
+
+
+<br> 
+
+### Infrastructure Development
+
+- Infrastructure as Code (IaC): Terraform, Pulumi, AWS CloudFormation, Packer
+
+IaC is used to automate the provisioning, modification, and destruction of cloud infrastructure (e.g., servers, load balancers, VPCs, databases, firewall policies), virtual images of machines and containers (e.g., Docker, Kubernetes), and secrets management. IaC also establishes enforcement of policy guardrails via policy as code.
+
+<br> 
+
+- Mutable vs. Immutable Infrastructure
+
+<table> 
+<tr>
+  <th>Infrastructure</th>
+  <th>Description</th>
+  <th>Pros</th>
+  <th>Cons</th>
+</tr>
+  <tr>
+    <td>Mutable</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Immutable</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<br> 
+
+### Code Development
+
+- Version Control System (e.g., git)
+  
+<br> 
+
+### Continuous Testing
 
 <p>Continuous testing is a software testing practice that involves testing applications throughout the entire software development life cycle (SDLC), providing quality-related feedback continuously. It provides critical feedback earlier which prevents costly reworks and enables improved product quality at every stage of development, and increases efficiency by reducing time to delivery. It also improves visibility of product quality, enabling organizations to make data-driven decisions about the readiness of software for release.</p>
 
@@ -153,9 +206,26 @@
 
 
 <details>
-  <summary> <h3>Monitoring & Logging</h3> </summary>
+  <summary> <h3>Continuous Deployment</h3> </summary>
 
-<br>
+### Key Concepts 
+- [Deployment Testing](#deployment-testing)
+- [Staging](#staging)
+- [Monitoring & Logging](#monitoring--logging)
+
+
+<br> 
+
+### Deployment Testing 
+
+
+<br> 
+
+### Staging
+
+<br> 
+
+### Monitoring & Logging
 
 </details>
 
