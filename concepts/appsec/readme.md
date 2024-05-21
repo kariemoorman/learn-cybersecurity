@@ -1,8 +1,63 @@
 # Application Security
 
 ## Table of Contents
+- <b>[CI/CD](#ci-cd)</b>
 - <b>[API Security](#api-security)</b>
 - <b>[LLM Security](#llm-security)</b>
+
+---
+
+<details>
+  <summary> <h2>CI-CD</h2> </summary>
+
+### Key Concepts
+- [Threat Modeling](#threat-modeling)
+- [Secrets Management](#secrets-management)
+- [Continuous Testing](#continuous-testing)
+- [Monitoring & Logging](#monitoring--logging)
+
+<br> 
+
+### Threat Modeling 
+
+<br> 
+
+### Secrets Management
+
+<br>
+
+### Continuous Testing 
+
+<p>Continuous testing is a software testing practice </p>
+
+<table> 
+  <tr>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>Unit Testing</td>
+    <td>Unit testing verifies that individual units of code work as expected.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Integration Testing</td>
+    <td>Integration testing verifies how different modules or services within an application work together.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Regression Testing</td>
+    <td>Regression testing is performed after a change is made to ensure no regression in expected performance occurs.</td>
+    <td></td>
+  </tr>
+</table>
+
+</details>
+
+<br>
+
+### Monitoring & Logging
 
 ---
 <details>
@@ -690,7 +745,5 @@
 </table>
 
 </details>
-
-<br>
 
 ---
