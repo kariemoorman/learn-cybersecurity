@@ -1,8 +1,47 @@
 # DevSecOps
 
 ## Table of Contents
+- <b>[Threat Modeling](#threat-modeling)</b>
+- <b>[Secrets Management](#secrets-management)</b>
+- <b>[Container Security](#container-security)</b>
+- <b>[Data Security](#data-security)</b>
 - <b>[CI/CD](#ci-cd)</b>
 
+---
+
+<details>
+  <summary> <h2>Threat Modeling</h2> </summary>
+
+<br>
+
+</details>
+
+---
+
+<details>
+  <summary> <h2>Secrets Management</h2> </summary>
+
+<br>
+
+</details>
+
+---
+
+<details>
+  <summary> <h2>Container Security</h2> </summary>
+
+<br>
+
+</details>
+
+---
+
+<details>
+  <summary> <h2>Data Security</h2> </summary>
+
+<br>
+
+</details>
 
 ---
 
@@ -10,50 +49,10 @@
   <summary> <h2>CI-CD</h2> </summary>
 
 ### Key Concepts
-- [Threat Modeling](#threat-modeling)
-- [Secrets Management](#secrets-management)
-- [Container Security](#container-security)
-- [Data Security](#data-security)
 - [Continuous Testing](#continuous-testing)
 - [Monitoring & Logging](#monitoring--logging)
 
 <br> 
-
-<details>
-  <summary> <h3>Threat Modeling</h3> </summary>
-
-<br>
-
-</details>
-
-<br> 
-
-<details>
-  <summary> <h3>Secrets Management</h3> </summary>
-
-<br>
-
-</details>
-
-<br>
-
-<details>
-  <summary> <h3>Container Security</h3> </summary>
-
-<br>
-
-</details>
-
-<br>
-
-<details>
-  <summary> <h3>Data Security</h3> </summary>
-
-<br>
-
-</details>
-
-<br>
 
 <details>
   <summary> <h3>Continuous Testing</h3> </summary>
@@ -152,7 +151,6 @@
 
 </details>
 
-<br>
 
 <details>
   <summary> <h3>Monitoring & Logging</h3> </summary>
