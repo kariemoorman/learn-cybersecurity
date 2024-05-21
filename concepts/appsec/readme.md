@@ -180,7 +180,8 @@
 
 <br>
 
-### 3 Pillars of API Security
+<details>
+  <summary> <h3>3 Pillars of API Security</h3> </summary>
 
 <details>
   <summary> <b>Governance: Developing Secure APIs</b> </summary>
@@ -266,9 +267,12 @@
 
 </details>
 
+</details>
+
 <br>
 
-### Securing API Servers 
+ <details>
+  <summary> <h3>Securing API Servers</h3> </summary>
 
  <details>
   <summary> <b>⚔️ CORS (Cross-Origin Resource Sharing)</b> </summary>
@@ -400,9 +404,14 @@
   
 </details>
 
+</details>
+
 <br>
 
-### PCI-DSS Compliance 
+ <details>
+  <summary> <h3>PCI-DSS Compliance</h3> </summary>
+
+   <br>
 
 <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci-dss_requirements.png' alt='pci' /></p>
 
@@ -443,8 +452,6 @@
 
 </details>
 
-
-
 <details>
   <summary>6.2.3 Software Code Review</summary>
   <br>
@@ -452,8 +459,6 @@
   <p align='center'><img src='https://github.com/kariemoorman/learn-cybersecurity/blob/main/images/pci_6-2-3.png' alt='pci-623' /></p>
 
 </details>
-
-
 
 <details>
   <summary>6.2.4 Prevent Common Vulnerabilities</summary>
@@ -520,7 +525,14 @@
 
 <br>
 
-### [OWASP API Top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
+</details>
+
+<br>
+
+<details>
+  <summary><h3>OWASP API Top 10</h3></summary>
+
+#### [OWASP API Top 10](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
 
 <table>
   <tr>
@@ -613,9 +625,13 @@
   </tr>
 </table>
 
+<br>
 </details>
 
 </details>
+
+</details>
+
 
 ---
 
