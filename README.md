@@ -71,7 +71,8 @@
   </tr>
   <tr>
     <td align='center'><img src='https://www.checkpoint.com/wp-content/uploads/what-is-appsec-1.jpg' alt='appsec' width="75px;" height="75px;" style="max-width:100%"><br><b>Application Security</b></td>
-    <td align='center'>
+    <td align='center'> 
+      <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec/readme.md#ci-cd' target="_blank">CI/CD</a>,
       <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec/readme.md#api-security' target="_blank">API Security</a>,
       <a href='https://github.com/kariemoorman/learn-cybersecurity/tree/main/concepts/appsec/readme.md#llm-security' target="_blank">LLM Security</a>
     </td>
